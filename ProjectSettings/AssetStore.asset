@@ -1,0 +1,841 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 53
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 258248712, guid: a215bd465061e3c4abe0b86c7c8c3d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _assetMappings:
+  - Guid: 94f34896b6a4b924883792521c3a17e1
+    StoreId: 6658ef5b6e9f2ad62c40e8f8
+    Name: School Door
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658ef5b6e9f2ad62c40e8f8/18fcb672288_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: e3c825daedbb878449ae0ad5994a16f1
+    StoreId: 6658d76d6e9f2ad62c40e7e8
+    Name: Chandelier
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d76d6e9f2ad62c40e7e8/18fcb09b878_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 4593cfbddd958c9449deceb1fb8dbc53
+    StoreId: 6658c3c16e9f2ad62c40e79f
+    Name: Mirror Lights
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c3c16e9f2ad62c40e79f/18fcabcd8c8_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 97fe2bb37d3e8ff4ba9a775c57d51755
+    StoreId: 6658b7406e9f2ad62c40e72b
+    Name: Clothes Rack 1
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658b7406e9f2ad62c40e72b/18fca8cc818_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: c0bdfc1a76abb044ab1bdb7e66fc28f3
+    StoreId: 6658b02f6e9f2ad62c40e6cc
+    Name: Arcade Plant 1
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658b02f6e9f2ad62c40e6cc/18fca706290_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 8a4a08e179fda7648b889c4769fc31e1
+    StoreId: 665758a2e4bc9b8bd2c9a4a0
+    Name: Arcade Stool
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/665758a2e4bc9b8bd2c9a4a0/18fc53267b0_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 5b73a9e737492984da6378a146223715
+    StoreId: 6657587fe4bc9b8bd2c9a49e
+    Name: Arcade Counter
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6657587fe4bc9b8bd2c9a49e/18fc531e2e0_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 86857c55b9b98384291f864b24024a0b
+    StoreId: 6626a6fd486f5fbcfabe6686
+    Name: Club Table 01
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6626a6fd486f5fbcfabe6686/18f06ffa7a8_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 8a6c5ba62b4795e42ba4aa8426a1724c
+    StoreId: 6626a73f486f5fbcfabe668c
+    Name: Acoustic Wall 02
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6626a73f486f5fbcfabe668c/18f07000180_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 367e4d4d817692842bfa3b25f96a7696
+    StoreId: 6626a737486f5fbcfabe668a
+    Name: Acoustic Wall 01
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6626a737486f5fbcfabe668a/18f06ffda70_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 09c5db4dff2a2624887b2f6d56cb08c5
+    StoreId: 6626a6b4486f5fbcfabe6681
+    Name: Pink Club Seat 01
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6626a6b4486f5fbcfabe6681/18f06fe5f88_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: c8554d3f604cda04ebeda576445d45c5
+    StoreId: 6626a0c7486f5fbcfabe666e
+    Name: Pink Stool
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6626a0c7486f5fbcfabe666e/18f06ff78c8_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 3463719bf84989d4a961ee97cd733ce8
+    StoreId: 6658c2d66e9f2ad62c40e794
+    Name: Counter 2 Grey
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c2d66e9f2ad62c40e794/18fcab946b8_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: bb364c37b90282f41872a689efa3009c
+    StoreId: 6658c2bd6e9f2ad62c40e792
+    Name: Counter 1 Grey
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c2bd6e9f2ad62c40e792/18fcab8dd40_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 3a758f81e28bfd241a6f6c1aae225733
+    StoreId: 6658c0ad6e9f2ad62c40e777
+    Name: Potted Tree 2
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c0ad6e9f2ad62c40e777/18fcab0d690_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 7623da11a77fc3b4a97c0fc4a8753176
+    StoreId: 6658d6f76e9f2ad62c40e7e2
+    Name: Headphones B
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d6f76e9f2ad62c40e7e2/18fcb07dbe8_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 7c9bab8d03fa2ae4384b15c1b7812b58
+    StoreId: 6658ebb46e9f2ad62c40e8ce
+    Name: Rise Shirt 3
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658ebb46e9f2ad62c40e8ce/18fcb58e218_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 2e279ef02a418514684b13dce39cf885
+    StoreId: 6658e7156e9f2ad62c40e89e
+    Name: Poster3
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658e7156e9f2ad62c40e89e/18fcb46d8e8_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 11d4ad8938e50f54ea66ec39c2f2deff
+    StoreId: 6658e6fa6e9f2ad62c40e89c
+    Name: Poster2
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658e6fa6e9f2ad62c40e89c/18fcb467358_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 508aa04283ac349479abc8f0a01832ef
+    StoreId: 6658e6d86e9f2ad62c40e89a
+    Name: Poster1
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658e6d86e9f2ad62c40e89a/18fcb4611b0_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 120e7fcba9557ec4cb34bfe652c2fcbe
+    StoreId: 6658e84f6e9f2ad62c40e8af
+    Name: Iron Beam
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658e84f6e9f2ad62c40e8af/18fcb4b9ba8_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 75275c80eaef5e4448feb7fb373826d8
+    StoreId: 6658eb706e9f2ad62c40e8ca
+    Name: Rise Shirt 1
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658eb706e9f2ad62c40e8ca/18fcb581310_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 8982fb0a3ad5fc24ab721abc13b8e8b6
+    StoreId: 6658da6b6e9f2ad62c40e801
+    Name: Laptop B
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658da6b6e9f2ad62c40e801/18fcb155cf0_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: afc6405cd5de23742a24d67ba6490f4b
+    StoreId: 6658d9636e9f2ad62c40e7f4
+    Name: Golden Mirror
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d9636e9f2ad62c40e7f4/18fcb115998_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 94a5b2e27d087d543ac25e30e02df8ce
+    StoreId: 6658d9e06e9f2ad62c40e7fb
+    Name: Shop Table Glass
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d9e06e9f2ad62c40e7fb/18fcb133df8_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 32a5e554657362e4f8c413f3d0a25d17
+    StoreId: 6658d9a76e9f2ad62c40e7f7
+    Name: Shop Shelf
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d9a76e9f2ad62c40e7f7/18fcb1276c0_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: ea68ce51437a85b459d52b9bc19a6e71
+    StoreId: 6658e9f66e9f2ad62c40e8c0
+    Name: Rise Shirts 3
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658e9f66e9f2ad62c40e8c0/18fcb5217d0_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 3c3fa08932d4b81499c30e6234077743
+    StoreId: 6658e9e06e9f2ad62c40e8be
+    Name: Rise Shirts 2
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658e9e06e9f2ad62c40e8be/18fcb51ba10_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 51f0cc59cbd85314ba89b1975f4e4a52
+    StoreId: 661ebe5271d0a0535503a58d
+    Name: Potion 01
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/661ebe5271d0a0535503a58d/18ee8186e38_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: a2142611fedbcc34b902a107f6a7fdb2
+    StoreId: 6658e5b66e9f2ad62c40e894
+    Name: Poster Elixir 2
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658e5b66e9f2ad62c40e894/18fcb421df8_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: f6da9371b9cecce4686fe2d4c46951e5
+    StoreId: 6658e58c6e9f2ad62c40e892
+    Name: Poster Elixir 1
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658e58c6e9f2ad62c40e892/18fcb411840_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 6b4090257ce05894d86523aff015e5a6
+    StoreId: 6658e0406e9f2ad62c40e858
+    Name: Paper Pinned
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658e0406e9f2ad62c40e858/18fcb2c3498_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 679e0f4d24ab3044183f0e693198b195
+    StoreId: 6658e28f6e9f2ad62c40e872
+    Name: Pencil Cup 2
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658e28f6e9f2ad62c40e872/18fcb3521c0_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: ddaf909ca7033cc44bf6ce778b8d05b8
+    StoreId: 6658e4fb6e9f2ad62c40e886
+    Name: Pillow Blossom
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658e4fb6e9f2ad62c40e886/18fcb3ea740_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: adafe82ea50a243458636a204c56d326
+    StoreId: 662a53129c08b75c5c248594
+    Name: World Radio
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/662a53129c08b75c5c248594/18f1554c0b8_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 1b76ad0715d39d14facaabacdecfec25
+    StoreId: 66704ecfb0995c7e10e7453c
+    Name: Wine Glass
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/6063eb1ece8f4adf51370f48/66704ecfb0995c7e10e7453c/19026b9f700_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 82d4a7df5a5fe8f469bd240676fc42df
+    StoreId: 66713cfbb0995c7e10e74b20
+    Name: Gumball Machine
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/6063eb1ece8f4adf51370f48/66713cfbb0995c7e10e74b20/1902a56c500_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs:
+    - 4a95ce3486b5a2a4aa833eb0f3ae0805
+    - 4a4d5cf2e28c64446ad99d50071f2994
+    - 590ccd623af7ef146895ad9bc82f1d93
+    - b4adc4e4f7b8d1946ab78e16f6714538
+    - 5bc8a4660c4548b4c874fca00b7aee81
+    - c239f74c568b76e46a93b33aa94e49cf
+    - ad654bd9076d2c149b778d21814ad59b
+    - da4cd42d056afa24a8659dfd65aa0dc9
+    - 78ec1b21caaaf4543964c22864e8139d
+    IsBundle: 0
+  - Guid: b038cc9ffb3e4e343bad11763a25f95b
+    StoreId: 667c2a7a8cbc8ac9ee4e28b5
+    Name: Living Vampire Throne
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/63f1befa566d3f603482bcd6/667c2a7a8cbc8ac9ee4e28b5/190550728f8_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 7365bd62ddd3a3d4db1b043c5b998b8a
+    StoreId: 6673672be33913810177eb86
+    Name: Inventory UI
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/55bb64735531104341039ca8/6673672be33913810177eb86/19032cccce8_0.jpg
+    AdditionalImageUrls: []
+    AdditionalAssetGUIDs: []
+    IsBundle: 0
+  - Guid: 93e4affb84ec637498e5863b2ab9827e
+    StoreId: 6750ea678b930182c68ab940
+    Name: Simplistic Build Cubes
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/6063eb1ece8f4adf51370f48/6750ea678b930182c68ab940/3941ecfe3.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/6063eb1ece8f4adf51370f48/6750ea678b930182c68ab940/193941ef0e0_0.jpg
+    AdditionalAssetGUIDs:
+    - 93e4affb84ec637498e5863b2ab9827e
+    - e85bcd44bf2355c43862eec3e9bc9322
+    - 5c2e1477204d92c4eb7c05ac8a9d7434
+    - db4c549aa3212d74e83c45adda4a5f6b
+    - dc4376d8fe45ab24e8234046158135fc
+    - a4e46d4d32a5d1044980c929973399e5
+    - a60766a22c8bd7a4e81c32d51b050de6
+    - cc632e676f2e52745b512e21980ae40a
+    - 1f93df6c71b775d449a76e1c4da90039
+    - ee9a946f928c3e140bc69aff67facb55
+    - 55288caa29d3da44983e2dd3496e38e1
+    - 4a07619548b258748abce3c43ad21f79
+    - 240a4eb6aed729543b60ded1d9e8c2e3
+    - 19f8ea9f8f4c34f41a6f72aea7278027
+    - bef6040182644094bb93f6706a0b8451
+    - 4436cd7a478faa846a353c49b62b65b7
+    - ea13ff3d928b51c46854253453aa39a2
+    - a41aff0d0bc812b40ae314c711623814
+    IsBundle: 1
+  - Guid: 2d18f557375448c4a932b345b4fcd6b3
+    StoreId: 6658ef7e6e9f2ad62c40e8fa
+    Name: Tiles Gray
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658ef7e6e9f2ad62c40e8fa/18fcb67b6f8_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658ef7e6e9f2ad62c40e8fa/18fcb67a758_0.jpg
+    AdditionalAssetGUIDs:
+    - 7cad33aafac861c45ac43bd7b6274dd4
+    - 5f34ab98f76b64b46a21be8918d4691c
+    - 7cb518a339155c54db379586fbff547c
+    IsBundle: 0
+  - Guid: e06caf223ce5e3748b86e4538a2a0635
+    StoreId: 6658ec696e9f2ad62c40e8da
+    Name: Tiles Black 3
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658ec696e9f2ad62c40e8da/18fcb5ba520_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658ec696e9f2ad62c40e8da/18fcb5b9968_0.jpg
+    AdditionalAssetGUIDs:
+    - 6f7f2a481ad926b42814f4a1f862dfd8
+    - 9d880476009fa2f449c76490cc018594
+    - 92c70afe3dbd31c4ebedfdff6007c44c
+    IsBundle: 0
+  - Guid: 79b00a54222b38e4faa5a134bcac422a
+    StoreId: 6658ec906e9f2ad62c40e8dd
+    Name: Wood Floor 1
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658ec906e9f2ad62c40e8dd/18fcb5c6c58_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658ec906e9f2ad62c40e8dd/18fcb5c5100_0.jpg
+    AdditionalAssetGUIDs:
+    - 6f7f2a481ad926b42814f4a1f862dfd8
+    - 9d880476009fa2f449c76490cc018594
+    - 101b2d1ed5b1bf9488c576a660f26bb1
+    IsBundle: 0
+  - Guid: db1124198c200ac4187e63f7a8f979ff
+    StoreId: 6658ec316e9f2ad62c40e8d6
+    Name: Tiles Black 1
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658ec316e9f2ad62c40e8d6/18fcb5aca60_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658ec316e9f2ad62c40e8d6/18fcb5abac0_0.jpg
+    AdditionalAssetGUIDs:
+    - 6f7f2a481ad926b42814f4a1f862dfd8
+    - 9d880476009fa2f449c76490cc018594
+    - 4c90fb92f274f1b4aa119ddaf84dc246
+    IsBundle: 0
+  - Guid: 4ff44a24a18bcc142ad57916f308f100
+    StoreId: 6658e8ec6e9f2ad62c40e8b7
+    Name: Rise Mat
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658e8ec6e9f2ad62c40e8b7/18fcb4e6298_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658e8ec6e9f2ad62c40e8b7/18fcb4e52f8_0.jpg
+    AdditionalAssetGUIDs:
+    - 49bfc20e774047e459f58d4626014b4a
+    - 7d0ceb78f5270ab46b17fbe7ccac7fc4
+    - c803790a003d31444ab6dfc88c8de2de
+    IsBundle: 0
+  - Guid: 5ad57f14254981a4b81732b3fdabd449
+    StoreId: 6658e86c6e9f2ad62c40e8b1
+    Name: Brick Wall Rise
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658e86c6e9f2ad62c40e8b1/18fcb4c0cf0_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658e86c6e9f2ad62c40e8b1/18fcb4bfd50_0.jpg
+    AdditionalAssetGUIDs:
+    - 6f7f2a481ad926b42814f4a1f862dfd8
+    - 9d880476009fa2f449c76490cc018594
+    - 833fadc26cc9f014aa562b398cd66308
+    IsBundle: 0
+  - Guid: 8fb5a1da2077dcc479fa3260d8cbc901
+    StoreId: 6658dca46e9f2ad62c40e825
+    Name: Tiles White
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658dca46e9f2ad62c40e825/18fcb1e07b0_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658dca46e9f2ad62c40e825/18fcb1dfbf8_0.jpg
+    AdditionalAssetGUIDs:
+    - ac83e9a1d8f74424c9777f4f46588116
+    - df3b40e0b0bd8544f9d8d85f825ae826
+    - 4fc94147c6e7ba9469a1296c88a3f0cd
+    IsBundle: 0
+  - Guid: 48354087fded5c6408bcf4a9b98b7eac
+    StoreId: 6658dcb86e9f2ad62c40e827
+    Name: Tiles White Half
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658dcb86e9f2ad62c40e827/18fcb1e59b8_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658dcb86e9f2ad62c40e827/18fcb1e4e00_0.jpg
+    AdditionalAssetGUIDs:
+    - df3b40e0b0bd8544f9d8d85f825ae826
+    - bfab92bdfdffa27478a2e497e3b88813
+    - 4fc94147c6e7ba9469a1296c88a3f0cd
+    IsBundle: 0
+  - Guid: ab8f19aa1cec3d54caa6b8c91b6b045a
+    StoreId: 6658dcf26e9f2ad62c40e82b
+    Name: Tiles White Corner
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658dcf26e9f2ad62c40e82b/18fcb1f3c48_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658dcf26e9f2ad62c40e82b/18fcb1f2ca8_0.jpg
+    AdditionalAssetGUIDs:
+    - df3b40e0b0bd8544f9d8d85f825ae826
+    - 0e628f46777518946b1bbfc97676859c
+    - 4fc94147c6e7ba9469a1296c88a3f0cd
+    IsBundle: 0
+  - Guid: 6c84d7165a9109149af955ffa41aa0ec
+    StoreId: 6658d93c6e9f2ad62c40e7f2
+    Name: Tiles Grey
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d93c6e9f2ad62c40e7f2/18fcb10b970_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d93c6e9f2ad62c40e7f2/18fcb10a9d0_0.jpg
+    AdditionalAssetGUIDs:
+    - d327491cf59248e40882b47135a82a25
+    - 245efd6900df5634cb23efa07b6d89ef
+    - 7fa13784061959f46bf0e47fd7022900
+    IsBundle: 0
+  - Guid: 4d7390774531f1c4c8dcb49752923a1e
+    StoreId: 6658d8816e9f2ad62c40e7ef
+    Name: Counter 3 Glass
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d8816e9f2ad62c40e7ef/18fcb0de6c8_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d8816e9f2ad62c40e7ef/18fcb0dd340_0.jpg
+    AdditionalAssetGUIDs:
+    - d327491cf59248e40882b47135a82a25
+    - 245efd6900df5634cb23efa07b6d89ef
+    - d6fb4ae9626f7b84a85a20c8deccface
+    IsBundle: 0
+  - Guid: a3ef7d7cea0397845a4d7fdc2b55e452
+    StoreId: 6658d8666e9f2ad62c40e7ed
+    Name: Counter 2 Glass
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d8666e9f2ad62c40e7ed/18fcb0d8138_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d8666e9f2ad62c40e7ed/18fcb0d7580_0.jpg
+    AdditionalAssetGUIDs:
+    - d327491cf59248e40882b47135a82a25
+    - 245efd6900df5634cb23efa07b6d89ef
+    - d1138c53333dddd43af818022cfc79fe
+    IsBundle: 0
+  - Guid: 11d89185cf224a4479869ba18719516f
+    StoreId: 6658d84f6e9f2ad62c40e7eb
+    Name: Counter 1 Glass
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d84f6e9f2ad62c40e7eb/18fcb0d1ba8_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d84f6e9f2ad62c40e7eb/18fcb0d0ff0_0.jpg
+    AdditionalAssetGUIDs:
+    - d327491cf59248e40882b47135a82a25
+    - 245efd6900df5634cb23efa07b6d89ef
+    - 1765f386f21ac134d8751fd4d593b9e5
+    IsBundle: 0
+  - Guid: 47613102539544746a129134f5d7bb94
+    StoreId: 6658d4bd6e9f2ad62c40e7be
+    Name: Glass Doorway 4
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d4bd6e9f2ad62c40e7be/18fcaff2958_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d4bd6e9f2ad62c40e7be/18fcaff1da0_0.jpg
+    AdditionalAssetGUIDs:
+    - 7665680215915414f80d5f36d0713154
+    - 7cad33aafac861c45ac43bd7b6274dd4
+    - 5f34ab98f76b64b46a21be8918d4691c
+    IsBundle: 0
+  - Guid: 45bfe85fc7fa2a543bb76b12ce9427e0
+    StoreId: 6658d5a26e9f2ad62c40e7ce
+    Name: Glass Wall 2
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d5a26e9f2ad62c40e7ce/18fcb02a3f8_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d5a26e9f2ad62c40e7ce/18fcb029840_0.jpg
+    AdditionalAssetGUIDs:
+    - 8fb79cf87784c6a45b5b69db88c7f1b3
+    - 7cad33aafac861c45ac43bd7b6274dd4
+    - 5f34ab98f76b64b46a21be8918d4691c
+    IsBundle: 0
+  - Guid: 4b6d3dc5bc8855c44b601d697b4258c2
+    StoreId: 6658d5b86e9f2ad62c40e7d0
+    Name: Glass Wall 4
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d5b86e9f2ad62c40e7d0/18fcb030d70_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d5b86e9f2ad62c40e7d0/18fcb02f9e8_0.jpg
+    AdditionalAssetGUIDs:
+    - 7cad33aafac861c45ac43bd7b6274dd4
+    - 5f34ab98f76b64b46a21be8918d4691c
+    - 3464b9e32260d4a4b97cf4e04525d4a7
+    IsBundle: 0
+  - Guid: 771d7340d27bc2f4cae223c290d36e2e
+    StoreId: 6658d5ce6e9f2ad62c40e7d2
+    Name: Glass Wall 6
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d5ce6e9f2ad62c40e7d2/18fcb036b30_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d5ce6e9f2ad62c40e7d2/18fcb035b90_0.jpg
+    AdditionalAssetGUIDs:
+    - 7cad33aafac861c45ac43bd7b6274dd4
+    - 417f66cfb6f282b42995608b8303d10f
+    - 5f34ab98f76b64b46a21be8918d4691c
+    IsBundle: 0
+  - Guid: 20e64d5fcfb531b489416613a681d37f
+    StoreId: 6658d58c6e9f2ad62c40e7cc
+    Name: Glass Wall Rounded
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d58c6e9f2ad62c40e7cc/18fcb0251f0_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d58c6e9f2ad62c40e7cc/18fcb024638_0.jpg
+    AdditionalAssetGUIDs:
+    - c9ffafee3e99e0e4299be881cc22c77d
+    - 7cad33aafac861c45ac43bd7b6274dd4
+    - 5f34ab98f76b64b46a21be8918d4691c
+    IsBundle: 0
+  - Guid: faccc9f3718a15949a9f48fc4ca0cddf
+    StoreId: 6658d54b6e9f2ad62c40e7c8
+    Name: Glass Railing Out
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d54b6e9f2ad62c40e7c8/18fcb015fc0_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d54b6e9f2ad62c40e7c8/18fcb015020_0.jpg
+    AdditionalAssetGUIDs:
+    - 4f388e2abe8d882449922b521594e14b
+    - 7cad33aafac861c45ac43bd7b6274dd4
+    - 5f34ab98f76b64b46a21be8918d4691c
+    IsBundle: 0
+  - Guid: 0312945cde081384b956046dbdf1c791
+    StoreId: 6658d5226e9f2ad62c40e7c6
+    Name: Glass Railing In
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d5226e9f2ad62c40e7c6/18fcb00c768_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d5226e9f2ad62c40e7c6/18fcb00bbb0_0.jpg
+    AdditionalAssetGUIDs:
+    - 7cad33aafac861c45ac43bd7b6274dd4
+    - 26520c91ee6108f40bf0f6dd546ee7a2
+    - 5f34ab98f76b64b46a21be8918d4691c
+    IsBundle: 0
+  - Guid: 41f94ef6f2d25604bad0f9d523ad06f9
+    StoreId: 6658d4fe6e9f2ad62c40e7c4
+    Name: Glass Railing 3
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d4fe6e9f2ad62c40e7c4/18fcb002b28_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d4fe6e9f2ad62c40e7c4/18fcb001f70_0.jpg
+    AdditionalAssetGUIDs:
+    - 7cad33aafac861c45ac43bd7b6274dd4
+    - 1ae31565cf9741b4dbe75801ae3adadd
+    - 5f34ab98f76b64b46a21be8918d4691c
+    IsBundle: 0
+  - Guid: 606a4ef8806adc14282f64a36ee5b9dd
+    StoreId: 6658d4eb6e9f2ad62c40e7c2
+    Name: Glass Railing 2
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d4eb6e9f2ad62c40e7c2/18fcaffdd08_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d4eb6e9f2ad62c40e7c2/18fcaffd150_0.jpg
+    AdditionalAssetGUIDs:
+    - 2f2a0ddbe543d7c488cd5d411f0eddbf
+    - 7cad33aafac861c45ac43bd7b6274dd4
+    - 5f34ab98f76b64b46a21be8918d4691c
+    IsBundle: 0
+  - Guid: 0dab14a1844dea947acf2c898be67ae0
+    StoreId: 6658d4d56e9f2ad62c40e7c0
+    Name: Glass Railing 1
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d4d56e9f2ad62c40e7c0/18fcaff96b8_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d4d56e9f2ad62c40e7c0/18fcaff8b00_0.jpg
+    AdditionalAssetGUIDs:
+    - 7cad33aafac861c45ac43bd7b6274dd4
+    - 81a966eef369a3448b70a2bbd7efabe4
+    - 5f34ab98f76b64b46a21be8918d4691c
+    IsBundle: 0
+  - Guid: 6df9a7e93b4cc2444be198e31136b088
+    StoreId: 6658d5f26e9f2ad62c40e7d4
+    Name: Glass Door 1
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d5f26e9f2ad62c40e7d4/18fcb03e060_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d5f26e9f2ad62c40e7d4/18fcb03d4a8_0.jpg
+    AdditionalAssetGUIDs:
+    - 7cad33aafac861c45ac43bd7b6274dd4
+    - dba88da9a1b41924ba3b0aa99da4b22d
+    - 5f34ab98f76b64b46a21be8918d4691c
+    IsBundle: 0
+  - Guid: e6d5db337a18e3840a321af6b446f4a6
+    StoreId: 6658d49d6e9f2ad62c40e7bc
+    Name: Glass Doorway 1
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d49d6e9f2ad62c40e7bc/18fcafebbf8_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658d49d6e9f2ad62c40e7bc/18fcafea870_0.jpg
+    AdditionalAssetGUIDs:
+    - 7cad33aafac861c45ac43bd7b6274dd4
+    - 44e670cdb67b84048947d04591bbb354
+    - 5f34ab98f76b64b46a21be8918d4691c
+    IsBundle: 0
+  - Guid: 9702d4bbe24d0ef438ea8e6ed6fe5513
+    StoreId: 6658c66b6e9f2ad62c40e7af
+    Name: Shop Window 1
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c66b6e9f2ad62c40e7af/18fcac75c30_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c66b6e9f2ad62c40e7af/18fcac75078_0.jpg
+    AdditionalAssetGUIDs:
+    - d327491cf59248e40882b47135a82a25
+    - 245efd6900df5634cb23efa07b6d89ef
+    - 475a7510fbd56234791d97d1c081828d
+    - d0b69d54b42ad9c449b8e3d3e83e7604
+    - 7cad33aafac861c45ac43bd7b6274dd4
+    - def2522f117fe024cb8b1310dee637c0
+    - 5f34ab98f76b64b46a21be8918d4691c
+    - cf40ae69561294345bc9e1d685632c59
+    - b3c25b05bd2fd8c44927c97a9f1a40c3
+    IsBundle: 0
+  - Guid: e8c38973eceb16b4ebd4c64ad310b383
+    StoreId: 6658c6296e9f2ad62c40e7ad
+    Name: Shop Seat 1
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c6296e9f2ad62c40e7ad/18fcac646d8_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c6296e9f2ad62c40e7ad/18fcac63738_0.jpg
+    AdditionalAssetGUIDs:
+    - d327491cf59248e40882b47135a82a25
+    - 245efd6900df5634cb23efa07b6d89ef
+    - b41d62deeae1afd48b6921586b5802df
+    IsBundle: 0
+  - Guid: 402463b9d7815274e838993a5ca03589
+    StoreId: 6658c4536e9f2ad62c40e7a7
+    Name: Shop Table 1
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c4536e9f2ad62c40e7a7/18fcabf0760_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c4536e9f2ad62c40e7a7/18fcabef7c0_0.jpg
+    AdditionalAssetGUIDs:
+    - d327491cf59248e40882b47135a82a25
+    - 245efd6900df5634cb23efa07b6d89ef
+    - 30b2728c0c46c274990a977a1d77746b
+    IsBundle: 0
+  - Guid: 2f922a871a35eb64da499e400038bc93
+    StoreId: 6658c34f6e9f2ad62c40e79b
+    Name: Tiles Tan
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c34f6e9f2ad62c40e79b/18fcabb2f00_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c34f6e9f2ad62c40e79b/18fcabb1f60_0.jpg
+    AdditionalAssetGUIDs:
+    - d327491cf59248e40882b47135a82a25
+    - 245efd6900df5634cb23efa07b6d89ef
+    - 54efe8ac36065da46b3f5ba38f2064e9
+    IsBundle: 0
+  - Guid: 148c146b36f33494787a10b49382e9d6
+    StoreId: 6658c2ef6e9f2ad62c40e796
+    Name: Counter 3 Grey
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c2ef6e9f2ad62c40e796/18fcab9a478_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c2ef6e9f2ad62c40e796/18fcab990f0_0.jpg
+    AdditionalAssetGUIDs:
+    - d327491cf59248e40882b47135a82a25
+    - 245efd6900df5634cb23efa07b6d89ef
+    - f927525371f0f5444b3dd6a37503fa9b
+    IsBundle: 0
+  - Guid: 0b5f40bade840b840a74cf5cb1142c0b
+    StoreId: 6658c28a6e9f2ad62c40e790
+    Name: Clothes Rack 2
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c28a6e9f2ad62c40e790/18fcab81608_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c28a6e9f2ad62c40e790/18fcab80a50_0.jpg
+    AdditionalAssetGUIDs:
+    - d327491cf59248e40882b47135a82a25
+    - 245efd6900df5634cb23efa07b6d89ef
+    - f427d1cfdb020434cb80f4f13ddf09ab
+    IsBundle: 0
+  - Guid: 879bf0bb47380364aaf1b849d92fc8dd
+    StoreId: 6658c4016e9f2ad62c40e7a3
+    Name: Shop Shelf 2
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c4016e9f2ad62c40e7a3/18fcabdcee0_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c4016e9f2ad62c40e7a3/18fcabdbf40_0.jpg
+    AdditionalAssetGUIDs:
+    - d327491cf59248e40882b47135a82a25
+    - 245efd6900df5634cb23efa07b6d89ef
+    - 7fc96c269b6f9574b82ed71e4cafe2e0
+    IsBundle: 0
+  - Guid: eb3138b88778d784caad6cb562f65669
+    StoreId: 6658c3e66e9f2ad62c40e7a1
+    Name: Shop Shelf 1
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c3e66e9f2ad62c40e7a1/18fcabd6d38_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c3e66e9f2ad62c40e7a1/18fcabd5d98_0.jpg
+    AdditionalAssetGUIDs:
+    - d327491cf59248e40882b47135a82a25
+    - 245efd6900df5634cb23efa07b6d89ef
+    - 1fbbad18e9d29d24a89911aef270afc9
+    IsBundle: 0
+  - Guid: 89797f9cc4d7c2d4eb3af197d5d0c629
+    StoreId: 6658bcd26e9f2ad62c40e74b
+    Name: Escalator
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658bcd26e9f2ad62c40e74b/18fcaa1e270_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658bcd26e9f2ad62c40e74b/18fcaa1d2d0_0.jpg
+    AdditionalAssetGUIDs:
+    - 9307bbfd4966fc2409708ad99636bc9b
+    - 7cad33aafac861c45ac43bd7b6274dd4
+    - df3b40e0b0bd8544f9d8d85f825ae826
+    - 5f34ab98f76b64b46a21be8918d4691c
+    - 4fc94147c6e7ba9469a1296c88a3f0cd
+    IsBundle: 0
+  - Guid: a03cf7ea1d95d224989b37d39648badd
+    StoreId: 6658b98c6e9f2ad62c40e73f
+    Name: Mall Roof
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658b98c6e9f2ad62c40e73f/18fca950190_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658b98c6e9f2ad62c40e73f/18fca94f1f0_0.jpg
+    AdditionalAssetGUIDs:
+    - 7cad33aafac861c45ac43bd7b6274dd4
+    - 5f34ab98f76b64b46a21be8918d4691c
+    - 142c66915ff29f44a90e6f3d60876e32
+    IsBundle: 0
+  - Guid: 86a3894f2da1b57449e7cc220faf2857
+    StoreId: 6658c0706e9f2ad62c40e775
+    Name: Potted Tree 1
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c0706e9f2ad62c40e775/18fcaafd8a8_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c0706e9f2ad62c40e775/18fcaafccf0_0.jpg
+    AdditionalAssetGUIDs:
+    - 93b383f94aab22c4dab9306e8e4f7082
+    - ef360c22d9dbf7049a0792bd5515f7f9
+    - 4f90e989b28d23349bc4b637cee2f126
+    - 742146c51f7ee264f846980444faac28
+    - f3988b3807df232498ff4ed970b5dde0
+    IsBundle: 0
+  - Guid: 9258e509d086c2e4d90fe574dd77bae2
+    StoreId: 6658e2a56e9f2ad62c40e874
+    Name: Photo Stand
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658e2a56e9f2ad62c40e874/18fcb35a690_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658e2a56e9f2ad62c40e874/18fcb3596f0_0.jpg
+    AdditionalAssetGUIDs:
+    - 49bfc20e774047e459f58d4626014b4a
+    - 7d0ceb78f5270ab46b17fbe7ccac7fc4
+    - ca1c232f10a39b04fa06638a53fbfec3
+    IsBundle: 0
+  - Guid: 463ec2e8f573d4f4795f5834e28649aa
+    StoreId: 6658e9926e9f2ad62c40e8b9
+    Name: Computer Monitor Blue
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658e9926e9f2ad62c40e8b9/18fcb509518_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658e9926e9f2ad62c40e8b9/18fcb508190_0.jpg
+    AdditionalAssetGUIDs:
+    - 49bfc20e774047e459f58d4626014b4a
+    - 8c274dd04a140924d821df32855cba03
+    - 7d0ceb78f5270ab46b17fbe7ccac7fc4
+    IsBundle: 0
+  - Guid: ea540f2eb324c064cb21b25d6d805e5e
+    StoreId: 6659017e6e9f2ad62c40e965
+    Name: Vending Machine 1
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6659017e6e9f2ad62c40e965/18fcbae0310_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6659017e6e9f2ad62c40e965/18fcbadf370_0.jpg
+    AdditionalAssetGUIDs:
+    - 484f2eb0a4a20934dbfd30193b0a3479
+    - 7cad33aafac861c45ac43bd7b6274dd4
+    - 5f34ab98f76b64b46a21be8918d4691c
+    IsBundle: 0
+  - Guid: eff51105176dc6448a510eca99e2d5be
+    StoreId: 6658eb4d6e9f2ad62c40e8c8
+    Name: Rise Shelf 2
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658eb4d6e9f2ad62c40e8c8/18fcb5753a8_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658eb4d6e9f2ad62c40e8c8/18fcb5747f0_0.jpg
+    AdditionalAssetGUIDs:
+    - 49bfc20e774047e459f58d4626014b4a
+    - 33153d65c076c934487b0b2b62ec9b18
+    - 7d0ceb78f5270ab46b17fbe7ccac7fc4
+    IsBundle: 0
+  - Guid: 20a9243f701adb44fbb469f8dea4f9b5
+    StoreId: 6658eb2d6e9f2ad62c40e8c6
+    Name: Rise Shelf 1
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658eb2d6e9f2ad62c40e8c6/18fcb56d2c0_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658eb2d6e9f2ad62c40e8c6/18fcb56c708_0.jpg
+    AdditionalAssetGUIDs:
+    - 49bfc20e774047e459f58d4626014b4a
+    - 7ddb776ba1d97684f8ad86e1c5374390
+    - 7d0ceb78f5270ab46b17fbe7ccac7fc4
+    IsBundle: 0
+  - Guid: 18b346a48e5031142b36fa1947b0b7a6
+    StoreId: 6658e8a16e9f2ad62c40e8b5
+    Name: RISE Counter
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658e8a16e9f2ad62c40e8b5/18fcb4d6898_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658e8a16e9f2ad62c40e8b5/18fcb4d5ce0_0.jpg
+    AdditionalAssetGUIDs:
+    - 49bfc20e774047e459f58d4626014b4a
+    - 0f67bf08ce7ca8c49992e2c754cbf0e9
+    - 7d0ceb78f5270ab46b17fbe7ccac7fc4
+    IsBundle: 0
+  - Guid: 580aca1d3cee8714e8f7d55c1947530c
+    StoreId: 6658c4306e9f2ad62c40e7a5
+    Name: Sale Sign
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c4306e9f2ad62c40e7a5/18fcabe9de8_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c4306e9f2ad62c40e7a5/18fcabe8e48_0.jpg
+    AdditionalAssetGUIDs:
+    - 7cad33aafac861c45ac43bd7b6274dd4
+    - 5f34ab98f76b64b46a21be8918d4691c
+    - 4a9d399db06b10546ba909dd37097915
+    IsBundle: 0
+  - Guid: 89cd8a46564876e4298914e9b04189cf
+    StoreId: 6658c26a6e9f2ad62c40e78e
+    Name: Colored Flags 2
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c26a6e9f2ad62c40e78e/18fcab7a0d8_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658c26a6e9f2ad62c40e78e/18fcab79138_0.jpg
+    AdditionalAssetGUIDs:
+    - 4f90e989b28d23349bc4b637cee2f126
+    - 6829770d61aae374b9f81ec05e0d4d17
+    - 742146c51f7ee264f846980444faac28
+    IsBundle: 0
+  - Guid: 553045099fb55d6498aa12522c5ca881
+    StoreId: 6658f6e56e9f2ad62c40e926
+    Name: Spotlight 1
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658f6e56e9f2ad62c40e926/18fcb849d68_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/6658f6e56e9f2ad62c40e926/18fcb8491b0_0.jpg
+    AdditionalAssetGUIDs:
+    - 49bfc20e774047e459f58d4626014b4a
+    - def2522f117fe024cb8b1310dee637c0
+    - 5ac2c8314ccb25845868eb0789c9b63d
+    - 7d0ceb78f5270ab46b17fbe7ccac7fc4
+    - b3c25b05bd2fd8c44927c97a9f1a40c3
+    IsBundle: 0
+  - Guid: 3c2df89b67546d749979b0463b5e0dfe
+    StoreId: 665903686e9f2ad62c40e98c
+    Name: Wooden Bench
+    ThumbnailUrl: https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/665903686e9f2ad62c40e98c/18fcbb57550_0.jpg
+    AdditionalImageUrls:
+    - https://d4v5j9dz6t9fz.cloudfront.net/web_uploads/world_builder_assets/647622d2106a74bac609d8ea/665903686e9f2ad62c40e98c/18fcbb56998_0.jpg
+    AdditionalAssetGUIDs:
+    - 7cad33aafac861c45ac43bd7b6274dd4
+    - 21734e4e760f65f458ef8499b41ebaa3
+    - 5f34ab98f76b64b46a21be8918d4691c
+    IsBundle: 0

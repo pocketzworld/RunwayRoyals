@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xmlns:hr="Highrise.UI"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+>
+
+  <hr:UILuaView class="dev-buttons" name="_ReadyUpButton">
+    <VisualElement name="joinGameButton" class="dev-button">
+      <hr:UILabel name="joinGamelabel"/>
+    </VisualElement>
+    
+    <VisualElement name="dressedUpButton" class="dev-button">
+      <hr:UILabel name="dressedUpLabel"/>
+    </VisualElement>
+
+
+    <!-- #TODO: Get rid of this and replace it with buttons on the screen -->
+
+    <!--
+
+    <VisualElement name="_InfoButton" class="info-button" picking-mode="Ignore">
+      <hr:UIBlur class="overlay" />
+      <VisualElement class="button-content">
+        <Image name="_InfoIcon"/>
+      </VisualElement>
+    </VisualElement>
+
+
+    <VisualElement class="dropdown hidden" picking-mode="Ignore" name="_dropdownMenu">
+        <hr:UIBlur class="overlay" />
+        <VisualElement class="dropdown-item leaderboard" name="_LeaderboardItem">
+          <Image class="dropdown-icon leaderboard-icon"/>
+          <Label class="dropdown-text" text="Leaderboard"/>
+        </VisualElement>
+
+        <VisualElement class="dropdown-item inventory" name="_InventoryItem">
+          <Image class="dropdown-icon inventory-icon"/>
+          <Label class="dropdown-text" text="Inventory"/>
+        </VisualElement>
+
+        <VisualElement class="dropdown-item shop" name="_Shop">
+          <Image class="dropdown-icon shop-icon"/>
+          <Label class="dropdown-text" text="Shop"/>
+        </VisualElement>
+
+        <VisualElement class="dropdown-item card" name="_PlayerCard">
+          <Image class="dropdown-icon card-icon"/>
+          <Label class="dropdown-text" text="Profile"/>
+        </VisualElement>
+
+    </VisualElement>
+    -->
+  </hr:UILuaView>
+
+</UXML>

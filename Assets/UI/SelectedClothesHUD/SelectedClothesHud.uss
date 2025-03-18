@@ -1,0 +1,107 @@
+.selected-clothes-hud {
+    position: absolute;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    bottom: 125px;
+}
+
+/** Clothing Items **/
+.clothing-button {
+    display: flex;
+
+    width: 48px;
+    height: 48px;
+
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.75);
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 5px;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.clothing-button Image {
+    width: 35px;
+    height: 35px;
+}
+
+/* Scroll View */
+
+.clothes-container {
+    display: flex;
+    position: absolute;
+
+    align-self: center;
+
+    flex-shrink: 0;
+    flex-grow: 1;
+
+    padding: 0px;
+    overflow: scroll;
+
+    width: auto; /* 190px to show 4 emojis, 140px to show 3 emojis */
+    max-width: 90%;
+    height: 60px;
+
+    bottom: 0px;
+    border-radius: 8px;
+
+    justify-content: center;
+}
+
+
+.scroll-view__content-viewport {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+}
+
+#UIScrollView .scroll-view__content_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  align-self: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+/* horizontal scroll bar */
+.scroll-bar {
+    display: none;
+}
+
+.scroll-bar {
+  height: 100%;
+
+  min-width: 5px;
+  max-width: 15px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+.scroll-bar__thumb {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 2px;
+}
+
+.hidden {
+    display: none;
+}

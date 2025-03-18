@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1754193419, guid: 30a4c7dce0b6891478396efa6bd2a6d0, type: 3}
+  m_Name: Faces
+  m_EditorClassIdentifier: 
+  _items:
+  - _descriptorId: body-flesh
+    _paletteId: -1
+  - _descriptorId: eye-m_01b
+    _paletteId: -1
+  - _descriptorId: eye-n_basic2018heavymascera
+    _paletteId: -1
+  - _descriptorId: eye-n_basic2018malesquare
+    _paletteId: -1
+  - _descriptorId: eye-n_basic2018malediamonddroopy
+    _paletteId: -1
+  - _descriptorId: eye-n_basic2018femalesquareupturned
+    _paletteId: -1
+  - _descriptorId: eye-n_basic2018femalealmoundsquint
+    _paletteId: -1
+  - _descriptorId: eye-n_basic2018dolleyes
+    _paletteId: -1
+  - _descriptorId: eye-n_basic2018teardrop
+    _paletteId: -1
+  - _descriptorId: eye-f_01ds
+    _paletteId: -1
+  - _descriptorId: eyebrow-n_11
+    _paletteId: -1
+  - _descriptorId: eyebrow-n_10
+    _paletteId: -1
+  - _descriptorId: eyebrow-n_08
+    _paletteId: -1
+  - _descriptorId: eyebrow-n_07
+    _paletteId: -1
+  - _descriptorId: eyebrow-n_06
+    _paletteId: -1
+  - _descriptorId: eyebrow-n_04
+    _paletteId: -1
+  - _descriptorId: eyebrow-n_03
+    _paletteId: -1
+  - _descriptorId: eyebrow-n_02
+    _paletteId: -1
+  - _descriptorId: eyebrow-n_01
+    _paletteId: -1
+  - _descriptorId: face_hair-n_newbasicfacehairlower18
+    _paletteId: -1
+  - _descriptorId: face_hair-n_newbasicfacehairlower17
+    _paletteId: -1
+  - _descriptorId: face_hair-n_newbasicfacehairlower16
+    _paletteId: -1
+  - _descriptorId: face_hair-n_newbasicfacehairlower13
+    _paletteId: -1
+  - _descriptorId: face_hair-n_newbasicfacehairlower12
+    _paletteId: -1
+  - _descriptorId: face_hair-n_newbasicfacehairlower08b
+    _paletteId: -1
+  - _descriptorId: face_hair-n_newbasicfacehairupper04
+    _paletteId: -1
+  - _descriptorId: face_hair-n_newbasicfacehairupper05
+    _paletteId: -1
+  - _descriptorId: face_hair-n_newbasicfacehairupper06
+    _paletteId: -1
+  - _descriptorId: nose-n_01
+    _paletteId: -1
+  - _descriptorId: nose-n_01_b
+    _paletteId: -1
+  - _descriptorId: nose-n_03
+    _paletteId: -1
+  - _descriptorId: nose-n_03_b
+    _paletteId: -1
+  - _descriptorId: nose-n_06
+    _paletteId: -1
+  - _descriptorId: nose-n_07
+    _paletteId: -1
+  - _descriptorId: nose-n_07_b
+    _paletteId: -1
+  - _descriptorId: nose-n_10
+    _paletteId: -1
+  - _descriptorId: nose-n_12
+    _paletteId: -1
+  - _descriptorId: mouth-f_12
+    _paletteId: -1
+  - _descriptorId: mouth-f_05
+    _paletteId: -1
+  - _descriptorId: mouth-n_01
+    _paletteId: -1
+  - _descriptorId: mouth-n_10
+    _paletteId: -1
+  - _descriptorId: mouth-n_17
+    _paletteId: -1
+  - _descriptorId: mouth-vip_n_02
+    _paletteId: -1
+  - _descriptorId: mouth-vip_m_01
+    _paletteId: -1
+  - _descriptorId: mouth-basic2018yummouth
+    _paletteId: -1
+  - _descriptorId: mouth-basic2018thinpeaked
+    _paletteId: -1
+  - _descriptorId: mouth-basic2018openfullpeaked
+    _paletteId: -1
+  - _descriptorId: mouth-basic2018smugmouth
+    _paletteId: -1
+  - _descriptorId: mouth-basic2018lippiercing
+    _paletteId: -1
+  - _descriptorId: mouth-basic2018whistlemouth
+    _paletteId: -1
+  - _descriptorId: mouth-n_basic2018widethinround
+    _paletteId: -1
+  - _descriptorId: mouth-basic2018unimpressed
+    _paletteId: -1
+  - _descriptorId: mouth-n_basic2018widefullround
+    _paletteId: -1
+  - _descriptorId: mouth-basic2018vampteeth
+    _paletteId: -1
+  - _descriptorId: mouth-n_basic2018toothythinround
+    _paletteId: -1
+  - _descriptorId: freckle-n_basic2018freckle25
+    _paletteId: -1
+  - _descriptorId: freckle-n_basic2018freckle28
+    _paletteId: -1
+  - _descriptorId: freckl-n_sharpfaceshadow
+    _paletteId: -1

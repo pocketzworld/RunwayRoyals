@@ -1,0 +1,828 @@
+{
+	
+    ["Theme1"] = {
+		
+
+        ["Faces"] = {
+			
+            
+            [1] = "body-flesh",
+			
+            
+            [2] = "eye-m_01b",
+			
+            
+            [3] = "eye-n_basic2018heavymascera",
+			
+            
+            [4] = "eye-n_basic2018malesquare",
+			
+            
+            [5] = "eye-n_basic2018malediamonddroopy",
+			
+            
+            [6] = "eye-n_basic2018femalesquareupturned",
+			
+            
+            [7] = "eye-n_basic2018femalealmoundsquint",
+			
+            
+            [8] = "eye-n_basic2018dolleyes",
+			
+            
+            [9] = "eye-n_basic2018teardrop",
+			
+            
+            [10] = "eye-f_01ds",
+			
+            
+            [11] = "eyebrow-n_11",
+			
+            
+            [12] = "eyebrow-n_10",
+			
+            
+            [13] = "eyebrow-n_08",
+			
+            
+            [14] = "eyebrow-n_07",
+			
+            
+            [15] = "eyebrow-n_06",
+			
+            
+            [16] = "eyebrow-n_04",
+			
+            
+            [17] = "eyebrow-n_03",
+			
+            
+            [18] = "eyebrow-n_02",
+			
+            
+            [19] = "eyebrow-n_01",
+			
+            
+            [20] = "face_hair-n_newbasicfacehairlower18",
+			
+            
+            [21] = "face_hair-n_newbasicfacehairlower17",
+			
+            
+            [22] = "face_hair-n_newbasicfacehairlower16",
+			
+            
+            [23] = "face_hair-n_newbasicfacehairlower13",
+			
+            
+            [24] = "face_hair-n_newbasicfacehairlower12",
+			
+            
+            [25] = "face_hair-n_newbasicfacehairlower08b",
+			
+            
+            [26] = "face_hair-n_newbasicfacehairupper04",
+			
+            
+            [27] = "face_hair-n_newbasicfacehairupper05",
+			
+            
+            [28] = "face_hair-n_newbasicfacehairupper06",
+			
+            
+            [29] = "nose-n_01",
+			
+            
+            [30] = "nose-n_01_b",
+			
+            
+            [31] = "nose-n_03",
+			
+            
+            [32] = "nose-n_03_b",
+			
+            
+            [33] = "nose-n_06",
+			
+            
+            [34] = "nose-n_07",
+			
+            
+            [35] = "nose-n_07_b",
+			
+            
+            [36] = "nose-n_10",
+			
+            
+            [37] = "nose-n_12",
+			
+            
+            [38] = "mouth-f_12",
+			
+            
+            [39] = "mouth-f_05",
+			
+            
+            [40] = "mouth-n_01",
+			
+            
+            [41] = "mouth-n_10",
+			
+            
+            [42] = "mouth-n_17",
+			
+            
+            [43] = "mouth-vip_n_02",
+			
+            
+            [44] = "mouth-vip_m_01",
+			
+            
+            [45] = "mouth-basic2018yummouth",
+			
+            
+            [46] = "mouth-basic2018thinpeaked",
+			
+            
+            [47] = "mouth-basic2018openfullpeaked",
+			
+            
+            [48] = "mouth-basic2018smugmouth",
+			
+            
+            [49] = "mouth-basic2018lippiercing",
+			
+            
+            [50] = "mouth-basic2018whistlemouth",
+			
+            
+            [51] = "mouth-n_basic2018widethinround",
+			
+            
+            [52] = "mouth-basic2018unimpressed",
+			
+            
+            [53] = "mouth-n_basic2018widefullround",
+			
+            
+            [54] = "mouth-basic2018vampteeth",
+			
+            
+            [55] = "mouth-n_basic2018toothythinround",
+			
+            
+            [56] = "freckle-n_basic2018freckle25",
+			
+            
+            [57] = "freckle-n_basic2018freckle28",
+			
+            
+            [58] = "freckl-n_sharpfaceshadow"
+        
+        
+		},
+		
+        
+        ["Hair"] = {
+			
+            
+            [1] = "hair_front-f_17",
+			
+            
+            [2] = "hair_front-f_24",
+			
+            
+            [3] = "hair_front-f_27",
+			
+            
+            [4] = "hair_front-m_23",
+			
+            
+            [5] = "hair_front-n_animecollection2018coolguyhair",
+			
+            
+            [6] = "hair_front-n_malenew01",
+			
+            
+            [7] = "hair_front-n_malenew02",
+			
+            
+            [8] = "hair_front-n_malenew03",
+			
+            
+            [9] = "hair_front-n_malenew04",
+			
+            
+            [10] = "hair_front-n_basic2018straightnobangs",
+			
+            
+            [11] = "hair_front-n_basic2018straightpulledback",
+			
+            
+            [12] = "hair_front-n_basic2018straightsidebangs",
+			
+            
+            [13] = "hair_front-n_basic2018wavyfullbangs",
+			
+            
+            [14] = "hair_front-n_basic2018curlynobangs",
+			
+            
+            [15] = "hair_front-n_basic2018curlypulledback",
+			
+            
+            [16] = "hair_front-n_basic2018curlysidebangs",
+			
+            
+            [17] = "hair_front-n_basic2018longstraighthalfpony",
+			
+            
+            [18] = "hair_front-n_basic2018mediumstraightsidebangs",
+			
+            
+            [19] = "hair_front-n_malenew05",
+			
+            
+            [20] = "hair_front-n_malenew06",
+			
+            
+            [21] = "hair_front-n_malenew07",
+			
+            
+            [22] = "hair_front-n_malenew08",
+			
+            
+            [23] = "hair_front-n_malenew09",
+			
+            
+            [24] = "hair_front-n_malenew10",
+			
+            
+            [25] = "hair_front-n_basic2018curlyfullbangs",
+			
+            
+            [26] = "hair_front-n_basic2018mediumwavybettiebangs",
+			
+            
+            [27] = "hair_front-n_basic2018straightbluntbangs"
+        
+        
+		},
+		
+        
+        ["Pants"] = {
+			
+            
+            [1] = "skirt-f_gianttutu",
+			
+            
+            [2] = "pants-n_foldedpreppantsblack",
+			
+            
+            [3] = "pants-n_foldedpreppantsblack",
+			
+            
+            [4] = "pants-n_starteritems2019cuffedshortsblack",
+			
+            
+            [5] = "pants-n_starteritems2019cuffedshortsblue",
+			
+            
+            [6] = "pants-n_room22019undiespink",
+			
+            
+            [7] = "pants-n_room12019rippedpantsblue",
+			
+            
+            [8] = "pants-n_room12019rippedpantsblack",
+			
+            
+            [9] = "skirt-n_room12019pleatedskirtpink",
+			
+            
+            [10] = "pants-n_room32019longshortswithsocksblack",
+			
+            
+            [11] = "pants-n_underwearstore2021blackpanties"
+        
+        
+		},
+		
+        
+        ["Shoes"] = {
+			
+            
+            [1] = "shoes-n_converse",
+			
+            
+            [2] = "shoes-n_starteritems2019flatspink",
+			
+            
+            [3] = "shoes-n_room22019kneehighsblack",
+			
+            
+            [4] = "shoes-n_room32019socksneakersblack",
+			
+            
+            [5] = "shoes-n_drstompsbootswhite",
+			
+            
+            [6] = "sock-n_augustskypassshoeriseudc2023feetwtoes",
+			
+            
+            [7] = "shoes-n_registrationavatars2023arianaboots",
+			
+            
+            [8] = "shoes-n_gothanchorstore2022blackchunkyboots",
+			
+            
+            [9] = "shoes-m_batman",
+			
+            
+            [10] = "shoes-f_catwoman",
+			
+            
+            [11] = "shoes-n_registrationavatars2023furrysneakers"
+        
+        
+		},
+		
+        
+        ["Accessories"] = {
+			
+            
+            [1] = "glasses-n_room12019halfrimwhite",
+			
+            
+            [2] = "bag-n_room12019backpack",
+			
+            
+            [3] = "glasses-n_room12019circleshades",
+			
+            
+            [4] = "earrings-f_17",
+			
+            
+            [5] = "earrings-f_17",
+			
+            
+            [6] = "earrings-f_15",
+			
+            
+            [7] = "bag-f_snowwoman",
+			
+            
+            [8] = "hat-m_king_1",
+			
+            
+            [9] = "handbag-n_room12019iphoneblack",
+			
+            
+            [10] = "glasses-n_10",
+			
+            
+            [11] = "handbag-n_room12019iphonepink"
+        
+        
+		},
+		
+        
+        ["Shirts"] = {
+			
+            
+            [1] = "shirt-n_2016fallblackkknottedtee",
+			
+            
+            [2] = "shirt-n_2016fallblacklayeredbomber",
+			
+            
+            [3] = "shirt-n_SCSpring2018flowershirt",
+			
+            
+            [4] = "shirt-n_swimwear2018baretorso",
+			
+            
+            [5] = "shirt-n_starteritems2019femtshirtblack",
+			
+            
+            [6] = "shirt-n_starteritems2019femtshirtwhite",
+			
+            
+            [7] = "shirt-n_starteritems2019femtshirtblack",
+			
+            
+            [8] = "shirt-n_room22109plaidjacket",
+			
+            
+            [9] = "shirt-n_room12019sweaterwithbuttondowngrey",
+			
+            
+            [10] = "shirt-n_room12019cropsweaterwhite",
+			
+            
+            [11] = "shirt-n_room22019denimdress",
+			
+            
+            [12] = "shirt-n_room22019bratoppink"
+        
+        
+		}
+    
+	},
+	
+    ["Theme2"] = {
+		
+
+        ["Faces"] = {
+			
+            
+            [1] = "body-flesh",
+			
+            
+            [2] = "eye-m_01b",
+			
+            
+            [3] = "eye-n_basic2018heavymascera",
+			
+            
+            [4] = "eye-n_basic2018malesquare",
+			
+            
+            [5] = "eye-n_basic2018malediamonddroopy",
+			
+            
+            [6] = "eye-n_basic2018femalesquareupturned",
+			
+            
+            [7] = "eye-n_basic2018femalealmoundsquint",
+			
+            
+            [8] = "eye-n_basic2018dolleyes",
+			
+            
+            [9] = "eye-n_basic2018teardrop",
+			
+            
+            [10] = "eye-f_01ds",
+			
+            
+            [11] = "eyebrow-n_11",
+			
+            
+            [12] = "eyebrow-n_10",
+			
+            
+            [13] = "eyebrow-n_08",
+			
+            
+            [14] = "eyebrow-n_07",
+			
+            
+            [15] = "eyebrow-n_06",
+			
+            
+            [16] = "eyebrow-n_04",
+			
+            
+            [17] = "eyebrow-n_03",
+			
+            
+            [18] = "eyebrow-n_02",
+			
+            
+            [19] = "eyebrow-n_01",
+			
+            
+            [20] = "face_hair-n_newbasicfacehairlower18",
+			
+            
+            [21] = "face_hair-n_newbasicfacehairlower17",
+			
+            
+            [22] = "face_hair-n_newbasicfacehairlower16",
+			
+            
+            [23] = "face_hair-n_newbasicfacehairlower13",
+			
+            
+            [24] = "face_hair-n_newbasicfacehairlower12",
+			
+            
+            [25] = "face_hair-n_newbasicfacehairlower08b",
+			
+            
+            [26] = "face_hair-n_newbasicfacehairupper04",
+			
+            
+            [27] = "face_hair-n_newbasicfacehairupper05",
+			
+            
+            [28] = "face_hair-n_newbasicfacehairupper06",
+			
+            
+            [29] = "nose-n_01",
+			
+            
+            [30] = "nose-n_01_b",
+			
+            
+            [31] = "nose-n_03",
+			
+            
+            [32] = "nose-n_03_b",
+			
+            
+            [33] = "nose-n_06",
+			
+            
+            [34] = "nose-n_07",
+			
+            
+            [35] = "nose-n_07_b",
+			
+            
+            [36] = "nose-n_10",
+			
+            
+            [37] = "nose-n_12",
+			
+            
+            [38] = "mouth-f_12",
+			
+            
+            [39] = "mouth-f_05",
+			
+            
+            [40] = "mouth-n_01",
+			
+            
+            [41] = "mouth-n_10",
+			
+            
+            [42] = "mouth-n_17",
+			
+            
+            [43] = "mouth-vip_n_02",
+			
+            
+            [44] = "mouth-vip_m_01",
+			
+            
+            [45] = "mouth-basic2018yummouth",
+			
+            
+            [46] = "mouth-basic2018thinpeaked",
+			
+            
+            [47] = "mouth-basic2018openfullpeaked",
+			
+            
+            [48] = "mouth-basic2018smugmouth",
+			
+            
+            [49] = "mouth-basic2018lippiercing",
+			
+            
+            [50] = "mouth-basic2018whistlemouth",
+			
+            
+            [51] = "mouth-n_basic2018widethinround",
+			
+            
+            [52] = "mouth-basic2018unimpressed",
+			
+            
+            [53] = "mouth-n_basic2018widefullround",
+			
+            
+            [54] = "mouth-basic2018vampteeth",
+			
+            
+            [55] = "mouth-n_basic2018toothythinround",
+			
+            
+            [56] = "freckle-n_basic2018freckle25",
+			
+            
+            [57] = "freckle-n_basic2018freckle28",
+			
+            
+            [58] = "freckl-n_sharpfaceshadow"
+        
+        
+		},
+		
+        
+        ["Hair"] = {
+			
+            
+            [1] = "hair_front-f_17",
+			
+            
+            [2] = "hair_front-f_24",
+			
+            
+            [3] = "hair_front-f_27",
+			
+            
+            [4] = "hair_front-m_23",
+			
+            
+            [5] = "hair_front-n_animecollection2018coolguyhair",
+			
+            
+            [6] = "hair_front-n_malenew01",
+			
+            
+            [7] = "hair_front-n_malenew02",
+			
+            
+            [8] = "hair_front-n_malenew03",
+			
+            
+            [9] = "hair_front-n_malenew04",
+			
+            
+            [10] = "hair_front-n_basic2018straightnobangs",
+			
+            
+            [11] = "hair_front-n_basic2018straightpulledback",
+			
+            
+            [12] = "hair_front-n_basic2018straightsidebangs",
+			
+            
+            [13] = "hair_front-n_basic2018wavyfullbangs",
+			
+            
+            [14] = "hair_front-n_basic2018curlynobangs",
+			
+            
+            [15] = "hair_front-n_basic2018curlypulledback",
+			
+            
+            [16] = "hair_front-n_basic2018curlysidebangs",
+			
+            
+            [17] = "hair_front-n_basic2018longstraighthalfpony",
+			
+            
+            [18] = "hair_front-n_basic2018mediumstraightsidebangs",
+			
+            
+            [19] = "hair_front-n_malenew05",
+			
+            
+            [20] = "hair_front-n_malenew06",
+			
+            
+            [21] = "hair_front-n_malenew07",
+			
+            
+            [22] = "hair_front-n_malenew08",
+			
+            
+            [23] = "hair_front-n_malenew09",
+			
+            
+            [24] = "hair_front-n_malenew10",
+			
+            
+            [25] = "hair_front-n_basic2018curlyfullbangs",
+			
+            
+            [26] = "hair_front-n_basic2018mediumwavybettiebangs",
+			
+            
+            [27] = "hair_front-n_basic2018straightbluntbangs"
+        
+        
+		},
+		
+        
+        ["Pants"] = {
+			
+            
+            [1] = "skirt-f_gianttutu",
+			
+            
+            [2] = "pants-n_foldedpreppantsblack",
+			
+            
+            [3] = "pants-n_foldedpreppantsblack",
+			
+            
+            [4] = "pants-n_starteritems2019cuffedshortsblack",
+			
+            
+            [5] = "pants-n_starteritems2019cuffedshortsblue",
+			
+            
+            [6] = "pants-n_room22019undiespink",
+			
+            
+            [7] = "pants-n_room12019rippedpantsblue",
+			
+            
+            [8] = "pants-n_room12019rippedpantsblack",
+			
+            
+            [9] = "skirt-n_room12019pleatedskirtpink",
+			
+            
+            [10] = "pants-n_room32019longshortswithsocksblack",
+			
+            
+            [11] = "pants-n_underwearstore2021blackpanties"
+        
+        
+		},
+		
+        
+        ["Shoes"] = {
+			
+            
+            [1] = "shoes-n_converse",
+			
+            
+            [2] = "shoes-n_starteritems2019flatspink",
+			
+            
+            [3] = "shoes-n_room22019kneehighsblack",
+			
+            
+            [4] = "shoes-n_room32019socksneakersblack",
+			
+            
+            [5] = "shoes-n_drstompsbootswhite",
+			
+            
+            [6] = "sock-n_augustskypassshoeriseudc2023feetwtoes",
+			
+            
+            [7] = "shoes-n_registrationavatars2023arianaboots",
+			
+            
+            [8] = "shoes-n_gothanchorstore2022blackchunkyboots",
+			
+            
+            [9] = "shoes-m_batman",
+			
+            
+            [10] = "shoes-f_catwoman",
+			
+            
+            [11] = "shoes-n_registrationavatars2023furrysneakers"
+        
+        
+		},
+		
+        
+        ["Accessories"] = {
+			
+            
+            [1] = "glasses-n_room12019halfrimwhite",
+			
+            
+            [2] = "bag-n_room12019backpack",
+			
+            
+            [3] = "glasses-n_room12019circleshades",
+			
+            
+            [4] = "earrings-f_17",
+			
+            
+            [5] = "earrings-f_17",
+			
+            
+            [6] = "earrings-f_15",
+			
+            
+            [7] = "bag-f_snowwoman",
+			
+            
+            [8] = "hat-m_king_1",
+			
+            
+            [9] = "handbag-n_room12019iphoneblack",
+			
+            
+            [10] = "glasses-n_10",
+			
+            
+            [11] = "handbag-n_room12019iphonepink"
+        
+        
+		},
+		
+        
+        ["Shirts"] = {
+			
+            
+            [1] = "shirt-n_2016fallblackkknottedtee"
+        
+		} 
+    
+	}
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xmlns:hr="Highrise.UI"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd"
+>
+
+  <hr:UILuaView class="shop">
+    <VisualElement class="cash-container">
+      <hr:UIBlur class="overlay" />
+      <VisualElement class="cash-content">
+        <Image class="cash-icon" />
+        <Label name="cash_text" class="cash-label" text="9999" />
+      </VisualElement>
+
+      <VisualElement name="add_cash_button" class="add-cash">
+        <Image class="add-cash-icon" />
+      </VisualElement>
+    </VisualElement>
+
+    <VisualElement class="shop__container" name="_ShopContainer">
+      <hr:UIBlur class="overlay" />
+
+      <VisualElement class="shop__header">
+        <Label class="shop__header__title" text="Shop" />
+      </VisualElement>
+
+      <VisualElement class="navigation">
+      <VisualElement class="nav-button active" name="_ClothesButton">
+          <Label class="nav-text" text="Clothing" />
+        </VisualElement>
+        <VisualElement class="nav-button" name="_AurasButton">
+          <Label class="nav-text" text="Emotes" />
+        </VisualElement>
+        <VisualElement class="nav-button" name="_ReactionsButton">
+          <Label class="nav-text" text="Reactions" />
+        </VisualElement>
+        <VisualElement class="nav-button" name="_DealsButton">
+          <Label class="nav-text" text="Deals" />
+        </VisualElement>
+      </VisualElement>
+
+      <VisualElement class="shop__close" name="_closeButton">
+        <VisualElement class="button-content">
+          <Image name="_closeButtonImage" class="shop__close__icon" />
+        </VisualElement>
+      </VisualElement>
+
+      <hr:UIScrollView name="_ShopContent" class="shop__content">
+        <!-- Shop Content -->
+        <!--
+        <VisualElement class="shop__item" name="_ShopItem">
+          <VisualElement class="shop__item-icon">
+            <Image class="shop__item-icon__image" />
+          </VisualElement>
+
+          <VisualElement class="shop__item-price">
+            <Image class="shop__item-price__icon" />
+            <Label class="shop__item-price__label" text="499" />
+          </VisualElement>
+
+        </VisualElement>
+        -->
+      </hr:UIScrollView>
+    </VisualElement>
+  
+    <VisualElement class="shop__item__info hidden" name="_itemInfo">
+      <VisualElement class="shop__item__info-content" name="_ItemInfoContent">
+        <!-- Item Info Content -->
+      </VisualElement>
+
+      <VisualElement class="shop__item__info__close" name="_closeInfoButton">
+        <VisualElement class="button-content">
+          <Image name="_closeButtonImage" class="shop__item__info__close__icon" />
+        </VisualElement>
+      </VisualElement>
+    </VisualElement>
+
+  </hr:UILuaView>
+
+</UXML>

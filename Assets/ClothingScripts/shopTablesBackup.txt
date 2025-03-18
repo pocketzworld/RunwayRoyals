@@ -1,0 +1,102 @@
+{
+	    {
+		        displayName = "Wolf Plushie Hat",
+		        id = "hat-n_2016redridinghoodwolfplushie_1",
+		        cost = 50    
+	},
+	    {
+		        displayName = "Rainbow Eyes",
+		        id = "eye-n_rainbow2017rainboweyes",
+		        cost = 50    
+	},
+	    {
+		        displayName = "Persuasive Eyes",
+		        id = "eye-n_dramaclubmacbetheye",
+		        cost = 50    
+	},
+	    {
+		        displayName = "Angry Eyebrows",
+		        id = "eyebrow-n_baby2016angryeyebrow",
+		        cost = 50    
+	},
+	    {
+		        displayName = "Great Bow",
+		        id = "hat-n_celebrities2017siabow_1",
+		        cost = 50    
+	},
+	    {
+		        displayName = "Caveman Paint 1",
+		        id = "face_hair-n_2016cavemanpaint1",
+		        cost = 100    
+	},
+	    {
+		        displayName = "Cheerleader Headband",
+		        id = "hat-f_cheerleaderheadband_1",
+		        cost = 100    
+	},
+	    {
+		        displayName = "Red Saber",
+		        id = "handbag-n_lightsaberred",
+		        cost = 100    
+	},
+	    {
+		        displayName = "Cloudy Hat",
+		        id = "hat-n_cloudyhat_1",
+		        cost = 150    
+	},
+	    {
+		        displayName = "Moon Skirt",
+		        id = "skirt-f_moonskirt",
+		        cost = 200    
+	},
+	    {
+		        displayName = "Fresh Jacket",
+		        id = "shirt-n_90s2017freshjacket",
+		        cost = 200    
+	},
+	    {
+		        displayName = "Black Pup Feet",
+		        id = "shoes-n_blackfriday2020blacksnoopfeet",
+		        cost = 500    
+	},
+	    {
+		        displayName = "Vanilla Valentine",
+		        id = "hair_front-n_newyearjudge2024alticsbowhair",
+		        cost = 500    
+	},
+	    {
+		        displayName = "Marksman Rifle",
+		        id = "handbag-n_vintagevault2023gunblackcamo",
+		        cost = 500    
+	},
+	    {
+		        displayName = "Mournful Lids",
+		        id = "eye-n_gettoworkudctheme1rewards2022achluophobiamournfullid",
+		        cost = 500    
+	},
+	    {
+		        displayName = "Plump Pout",
+		        id = "mouth-n_poppybrandgrab2022fadedplumplips",
+		        cost = 500    
+	},
+	    {
+		        displayName = "Loose Half Up Hair",
+		        id = "hair_front-n_promrewards2021iexyhair",
+		        cost = 500    
+	},
+	    {
+		        displayName = "Butterfly Soul Corset",
+		        id = "shirt-n_softspringudcrewards2022corsetikaori",
+		        cost = 500    
+	},
+	    {
+		        displayName = "Ravencry Wings",
+		        id = "bag-n_rebelwinter2024animatedwings",
+		        cost = 500    
+	},
+	    {
+		        displayName = "Link Sword",
+		        id = "gloves-n_linksword",
+		        cost = 2000    
+	}
+}

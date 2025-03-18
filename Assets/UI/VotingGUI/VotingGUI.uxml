@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xmlns:hr="Highrise.UI"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+>
+
+  <hr:UILuaView class="voting-g-u-i">
+
+    <VisualElement name="VotingElement" class="react-elements">
+    
+      <VisualElement name="vote_cta">
+        <Label name="vote_cta_text" text="Vote!"/>
+      </VisualElement>
+
+      <VisualElement class="star-holder">
+        <hr:UIButton name="One_Star" class="vote-button">
+          <Image name="oneImage"/>
+        </hr:UIButton>
+        <VisualElement class="rectangle" />
+      </VisualElement>
+
+      <VisualElement class="star-holder">
+        <hr:UIButton name="Two_Stars" class="vote-button">
+          <Image name="twoImage"/>
+        </hr:UIButton>
+        <VisualElement class="rectangle" />
+      </VisualElement>
+
+      
+      <VisualElement class="star-holder">
+        <hr:UIButton name="Three_Stars" class="vote-button">
+          <Image name="threeImage"/>
+        </hr:UIButton>
+        <VisualElement class="rectangle" />
+      </VisualElement>
+
+
+      <VisualElement class="star-holder">
+        <hr:UIButton name="Four_Stars" class="vote-button">
+          <Image name="fourImage"/>
+        </hr:UIButton>
+        <VisualElement class="rectangle" />
+      </VisualElement>
+
+      <VisualElement class="star-holder">
+        <hr:UIButton name="Five_Stars" class="vote-button">
+          <Image name="fiveImage"/>
+        </hr:UIButton>
+        <VisualElement class="rectangle" />
+      </VisualElement>
+    </VisualElement>
+
+    <hr:UIScrollView mode="Horizontal" name="EmojiElement" class="emoji-elements">
+      <hr:UIButton name="Emoji_One" class="react-button default">
+        <Image name="emojiImageOne"/>
+      </hr:UIButton>
+      <hr:UIButton name="Emoji_Two" class="react-button default">
+        <Image name="emojiImageTwo"/>
+      </hr:UIButton>
+      <hr:UIButton name="Emoji_Three" class="react-button default">
+        <Image name="emojiImageThree"/>
+      </hr:UIButton>
+    </hr:UIScrollView>
+
+  </hr:UILuaView>
+
+</UXML>

@@ -1,0 +1,18 @@
+{
+  "IncludeFallbacks": true,
+  "Skeleton": "",
+  "Clothing": [
+    {
+      "Id": "body-flesh",
+      "Color": 85
+    },
+    {
+      "Id": "mouth-n_aprilfoolsinvisible2020mouth",
+      "Color": 0
+    },
+    {
+      "Id": "eye-n_aprilfoolsinvisible2020eyes",
+      "Color": 0
+    }
+  ]
+}

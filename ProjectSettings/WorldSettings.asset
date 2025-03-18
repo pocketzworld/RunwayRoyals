@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 53
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 123689159, guid: a1d32ecfae27fdc4a8347da428bbc54a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _version: 2
+  _publishedId: 667ee9be9f8d4ebb9584eb9d
+  _worldPrefab: {fileID: 9149024167557975092, guid: dee6bbe3488895549b521c7ad6ee60aa,
+    type: 3}
+  _scenePrefab: {fileID: 3805367807035495795, guid: 65cc5e6b29652e94da192ad632c8db4e,
+    type: 3}
+  _uiFactory: {fileID: -2017830929143987780, guid: 4fca3c8770d8a2141aefe32f298aa1e8,
+    type: 3}
+  _localizationDatabase: {fileID: 0}
+  _scenes:
+  - Name: Room
+    Scene: {fileID: 102900000, guid: 3d97b014f52721147ba461f2a8133078, type: 3}
+    LoadingImage: {fileID: 2800000, guid: 6f9235fd7c31aea498918ab44c186b79, type: 3}
+  _highQualityAvatars: 0
+  _hideVirtualPlayerScenes: 1
+  _defaultPlayerProfileId: 0
+  _useRemoteServer: 0
+  _remoteServerUserIds: []
+  _checkStudioUpdatesOnLaunch: 1

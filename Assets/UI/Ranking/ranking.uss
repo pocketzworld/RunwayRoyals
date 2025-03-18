@@ -1,0 +1,233 @@
+:root {
+  --font-inter-black: url("project://database/Assets/UI/Fonts/Inter-Black SDF.asset");
+  --font-inter-black-italic: url("project://database/Assets/UI/Fonts/Inter-BlackItalic SDF.asset");
+  --font-inter-bold: url("project://database/Assets/UI/Fonts/Inter-Bold SDF.asset");
+  --font-inter-bold-italic: url("project://database/Assets/UI/Fonts/Inter-BoldItalic SDF.asset");
+  --font-inter-semi-bold: url("project://database/Assets/UI/Fonts/MuseoSansRounded1000 SDF.asset");
+
+  --color-primary: #9374FD;
+  --color-secondary: #1E232C;
+  --color-white: #E8ECF4;
+}
+
+.ranking {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 80%;
+
+  top: 50%;
+  left: 50%;
+  translate: -50%;
+
+  padding: 30px;
+}
+
+.ranking-container {
+  display: flex;
+  overflow: hidden;
+
+  padding: 5px;
+  min-height: 250px;
+  min-width: 250px;
+
+  max-height: 700px;
+  max-width: 1000px;
+
+  width: 100%;
+  height: 100%;
+
+  border-width: 2px;
+  border-radius: 8px;
+  border-color: rgba(0, 0, 0, .3);
+
+  border-bottom-color: var(--color-primary);
+}
+
+.ranking-close {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
+.button-content Image {
+  --unity-image: var(--image-icon-close);
+
+  width: 37px;
+  height: 37px;
+}
+
+.ranking .header {
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  -unity-text-align: middle-center;
+
+  border-bottom-color: rgba(0, 0, 0, .3);
+  border-bottom-width: 2px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  margin-bottom: 3px;
+}
+
+.ranking .navigation {
+  display: none;
+
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2px;
+
+  width: 100%;
+}
+
+.nav-button {
+  display: flex;
+
+  -unity-text-align: middle-center;
+  -unity-font-definition: var(--font-inter-bold);
+  color: var(--color-white);
+
+  width: 100%;
+  padding: 10px;
+
+  margin: 5px;
+
+  background-color: rgba(0, 0, 0, 0.2);
+
+  transition-property: all;
+  transition-duration: 0.1s;
+  border-color: var(--color-primary);
+}
+
+.nav-text {
+  font-size: 16px;
+}
+
+.nav-button.active {
+  border-bottom-color: var(--color-primary);
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-width: 2px;
+}
+
+.nav-button.active:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.nav-button:hover {
+  background-color: var(--color-primary);
+} 
+
+.header .title {
+  font-size: 25px;
+  color: #9374FD;
+
+  align-self: center;
+
+  text-shadow: -3px 5px 0px rgba(0, 0, 0, .4);
+  -unity-font-definition: var(--font-inter-black);
+}
+
+.ranking .content {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+
+  padding: 10px 5px;
+}
+
+.content .ranklist {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.content .rank-item {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+
+  -unity-text-align: middle-left;
+  -unity-font-definition: var(--font-inter-bold);
+  text-shadow: -3px 5px 0px rgba(0, 0, 0, .4);
+  color: var(--color-white);
+  font-size: 16px;
+}
+
+.rank-item .name-label {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.rank-item .rank-label {
+  width: 50px;
+  color: #9374FD;
+}
+
+.rank-item .score-label {
+  margin-right: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.scroll-view__content-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  width: auto;
+  height: auto;
+  
+}
+
+.scroll-bar {
+  height: 100%;
+
+  width: 5px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+.scroll-bar__thumb {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 2px;
+}
+
+.scroll-bar__thumb:active {
+  background-color: #9374FD;
+}
+
+.scroll-bar__thumb:hover {
+  background-color: #9374FD;
+}

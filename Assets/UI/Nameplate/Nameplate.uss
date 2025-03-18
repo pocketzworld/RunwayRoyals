@@ -1,0 +1,37 @@
+:root {
+    --font-muesou-900: url("project://database/Assets/UI/Fonts/MuseoSansRounded1000 SDF.asset");
+}
+
+.nameplate {
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow: visible;
+
+    color: white;
+    font-size: 48px;
+    -unity-font-definition: var(--font-muesou-900);
+    -unity-text-align: middle-center;
+    -unity-text-outline-color: rgba(0,0,0,.7);
+    -unity-text-outline-width: 5px;
+    text-shadow: 0 3 0 rgba(0,0,0,0.5);
+    -unity-font-style: bold;
+}
+
+#nameplateContainer {
+    display: flex;
+    flex-direction: collumn;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#nameLabel {
+    font-size: 52px;
+    margin-right: 10px;
+}
+
+.hidden {
+    display: none;
+}

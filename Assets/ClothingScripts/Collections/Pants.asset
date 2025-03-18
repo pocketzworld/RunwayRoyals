@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1754193419, guid: 30a4c7dce0b6891478396efa6bd2a6d0, type: 3}
+  m_Name: Pants
+  m_EditorClassIdentifier: 
+  _items:
+  - _descriptorId: skirt-f_gianttutu
+    _paletteId: -1
+  - _descriptorId: pants-n_foldedpreppantsblack
+    _paletteId: -1
+  - _descriptorId: pants-n_2016fallgreyacidwashjeans
+    _paletteId: -1
+  - _descriptorId: pants-n_starteritems2019cuffedjeansblack
+    _paletteId: -1
+  - _descriptorId: pants-n_starteritems2019cuffedjeansblue
+    _paletteId: -1
+  - _descriptorId: pants-n_starteritems2019cuffedjeanswhite
+    _paletteId: -1
+  - _descriptorId: pants-n_starteritems2019cuffedshortsblack
+    _paletteId: -1
+  - _descriptorId: pants-n_starteritems2019cuffedshortsblue
+    _paletteId: -1
+  - _descriptorId: pants-n_starteritems2019cuffedshortswhite
+    _paletteId: -1
+  - _descriptorId: pants-n_room22019undiespink
+    _paletteId: -1
+  - _descriptorId: pants-n_room22019undiesblack
+    _paletteId: -1
+  - _descriptorId: skirt-n_room22019skirtwithsocksblack
+    _paletteId: -1
+  - _descriptorId: skirt-n_room22019skirtwithsocksplaid
+    _paletteId: -1
+  - _descriptorId: skirt-n_room12019pleatedskirtpink
+    _paletteId: -1
+  - _descriptorId: skirt-n_room12019pleatedskirtblack
+    _paletteId: -1
+  - _descriptorId: pants-n_room12019rippedpantsblue
+    _paletteId: -1
+  - _descriptorId: pants-n_room12019rippedpantsblack
+    _paletteId: -1
+  - _descriptorId: pants-n_room12019formalslackskhaki
+    _paletteId: -1
+  - _descriptorId: pants-n_room32019longshortswithsocksblack
+    _paletteId: -1
+  - _descriptorId: pants-n_room32019longshortswithsocksgrey
+    _paletteId: -1
+  - _descriptorId: skirt-n_peridotdailies2020peridotskirt
+    _paletteId: -1
+  - _descriptorId: pants-n_bpositive2021bigandtalltanshorts
+    _paletteId: -1
+  - _descriptorId: pants-n_bpositive2021fullfigureshortsblack
+    _paletteId: -1
+  - _descriptorId: pants-n_underwearstore2021blackpanties
+    _paletteId: -1
+  - _descriptorId: pants-n_underwearstore2021whitepanties
+    _paletteId: -1
+  - _descriptorId: pants-n_underwearstore2021blackboxerbrief
+    _paletteId: -1
+  - _descriptorId: pants-n_underwearstore2021blackspeedo
+    _paletteId: -1

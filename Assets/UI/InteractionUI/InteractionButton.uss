@@ -1,0 +1,28 @@
+.interaction-button {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.interact__button {
+    display: flex;
+
+    width: auto;
+    height: auto;
+
+
+
+    padding: 8px 10px 8px 10px;
+    border-radius: 8px;   
+
+    color: #E8ECF4;
+    font-size: 28px;
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/MuseoSansRounded1000 SDF.asset");
+
+    background-color: #9374FD;
+    border-bottom-width: 4px;
+    border-color: #6A4BFF;
+}

@@ -1,0 +1,70 @@
+.emotes-u-i {
+    position: absolute;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    bottom: 20px;
+}
+
+/** Emote Items **/
+.emote-button {
+    width: 48px;
+    height: 48px;
+
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.75);
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 5px;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.emote-button Image {
+    width: 35px;
+    height: 35px;
+}
+
+/* Scroll View */
+
+.emotes-container {
+    position: absolute;
+
+    align-self: center;
+
+    flex-shrink: 0;
+    flex-grow: 1;
+
+    padding: 0px;
+    overflow: scroll;
+
+    width: auto; /* 190px to show 4 emojis, 140px to show 3 emojis */
+    max-width: 100%;
+    height: 60px;
+
+    bottom: 0px;
+    border-radius: 8px;
+
+    justify-content: center;
+}
+
+/* horizontal scroll bar */
+.scroll-bar {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.locked {
+    opacity: 0.5;
+    background-color: rgb(85,85,85);
+}

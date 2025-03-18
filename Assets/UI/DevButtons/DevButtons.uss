@@ -1,0 +1,166 @@
+.dev-buttons {
+    display: flex;
+    position: absolute;
+
+    align-items: center;
+    align-self: center;
+
+    width: 100%;
+
+    bottom: 0px;
+}
+
+.dev-button {
+    display: flex;
+    position: absolute; 
+    align-self: center;
+    
+    bottom: 0;
+    flex-grow: 1;
+    overflow: hidden;
+
+    padding: 8px 10px 8px 10px;
+    border-radius: 8px;   
+
+    color: #E8ECF4;
+    font-size: 20px;
+    -unity-font-definition: url("project://database/Assets/UI/Fonts/MuseoSansRounded1000 SDF.asset");
+    
+    background-color: #9374FD;
+    border-bottom-width: 4px;
+    border-color: #6A4BFF;
+}
+
+.dev-button UIBlur {
+    display: none;
+}
+
+.info-button {
+    display: flex;
+    position: absolute;
+
+    align-items: center;
+    justify-content: center;
+
+    bottom: 0;
+    left: 19px;
+
+    width: 36px;
+    height: 36px;
+
+    flex-shrink: 0;
+    overflow: hidden;
+
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.button-content Image {
+  --unity-image: url("project://database/Assets/UI/Icons/Info_Icon.png");
+
+    width: 24px;
+    height: 24px;
+}
+
+.enabled {
+    opacity: 0.5;
+}
+
+.disabled {
+    display: none;
+}
+
+.dropdown {
+    display: flex;
+    position: absolute;
+
+    align-items: center;
+    justify-content: center;
+
+    bottom: 33px;
+    left: 53px;
+
+    height: 120px;
+    width: 130px;
+
+    flex-shrink: 0;
+    overflow: hidden;
+
+    border-radius: 8px;
+
+    background-color: #1E232C;
+    color: #E8ECF4;
+}
+
+
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    -unity-text-align: middle-center;
+    flex-direction: row; 
+    
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.dropdown-item Image {
+    width: 16px;
+    height: 16px;
+
+    margin-right: 3px;
+}
+
+.dropdown-item.leaderboard Image {
+    --unity-image: url("project://database/Assets/UI/Icons/Ranking_Icon.png");
+}
+
+.dropdown-item.inventory Image {
+    --unity-image: url("project://database/Assets/UI/Icons/Inventory_Icon.png");
+}
+
+.dropdown-item.card Image {
+    --unity-image: url("project://database/Assets/UI/Icons/Profile_Icon.png");
+}
+
+.dropdown-item.shop Image {
+    --unity-image: url("project://database/Assets/UI/Icons/Shop_Icon.png");
+}
+
+.dropdown-item:hover {
+    opacity: 0.5;
+}
+
+.scroll-view__content-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.scroll-bar {
+  height: 100%;
+
+  min-width: 5px;
+  max-width: 15px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+.scroll-bar__thumb {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 2px;
+}
+
+.scroll-bar__thumb:active {
+  background-color: #9374FD;
+}
+
+.scroll-bar__thumb:hover {
+  background-color: #9374FD;
+}

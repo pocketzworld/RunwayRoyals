@@ -1,0 +1,100 @@
+:root {
+  --font-inter-black: url("project://database/Assets/UI/Fonts/Inter-Black SDF.asset");
+  --font-inter-black-italic: url("project://database/Assets/UI/Fonts/Inter-BlackItalic SDF.asset");
+  --font-inter-bold: url("project://database/Assets/UI/Fonts/Inter-Bold SDF.asset");
+  --font-inter-bold-italic: url("project://database/Assets/UI/Fonts/Inter-BoldItalic SDF.asset");
+}
+
+.minigame-hud {
+  display: flex;
+  position: absolute;
+
+  -unity-text-align: middle-center;
+  color: #fff;
+
+  align-self: center;
+
+  top: 0;
+}
+
+.my-container {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.state {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+
+  padding: 6px 10px 6px 10px;
+  overflow: hidden;
+}
+
+.state-title {
+  color: #fff;
+  font-size: 20px;
+  -unity-font-definition: var(--font-inter-bold);
+}
+
+.status-title {
+  -unity-font-definition: var(--font-inter-black-italic);
+  font-size: 26px;
+  text-shadow: 1px 5px 3px rgba(0, 0, 0, .3);
+}
+
+.countdown-container,
+.middle-container {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-container {
+  padding: 6px 10px 6px 10px;
+}
+
+.image-container  {
+  display: flex;
+
+  background-size: cover;
+  margin-right: 5px;
+  align-items: center;
+
+  width: auto;
+}
+
+.HideUserThumbnail {
+  display: none;
+}
+
+.countdown-container {
+  font-size: 14px;
+  text-shadow: 1px 5px 3px rgba(0, 0, 0, .3);
+  -unity-font-definition: var(--font-inter-bold);
+}
+
+.timer-icon,
+.contestant-icon {
+  margin-right: 5px;
+}
+
+.HideTimerIcon {
+  display: none;
+}
+
+.middle-container #contestantIcon {
+  width: 45px;
+  height: 45px;
+
+  overflow: hidden;
+}
+
+.countdown-container Image {
+  --unity-image: url("project://database/Assets/UI/Icons/Timer_Icon.png");
+  width: 16px;
+  height: 16px;
+}

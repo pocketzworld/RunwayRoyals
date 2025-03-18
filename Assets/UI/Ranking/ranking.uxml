@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xmlns:hr="Highrise.UI"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd"
+>
+
+  <hr:UILuaView class="ranking" picking-mode="Ignore">
+    <VisualElement name="RankingRoot" class="ranking-container">
+      <hr:UIBlur class="overlay" />
+      <VisualElement class="header">
+        <Label class="title" text="LEADERBOARD" />
+      </VisualElement>
+
+      <VisualElement class="navigation">
+        <VisualElement class="nav-button active" name="_sessionButton">
+          <Label class="nav-text" text="Session" />
+        </VisualElement>
+        <VisualElement class="nav-button" name="_allTimeButton">
+          <Label class="nav-text" text="All Time" />
+        </VisualElement>
+      </VisualElement>
+
+      <!-- Note: A player can also close the leaderboard using the same button that opened it -->
+      <VisualElement name="_closeButton" class="ranking-close">
+        <VisualElement class="button-content">
+          <Image name="_closeIcon"/>
+        </VisualElement>
+      </VisualElement>
+
+      <VisualElement class="content" name="_content">
+        <!-- Leaderboard -->
+        <hr:UIScrollView class="ranklist" name="_ranklist">
+          <!-- Ranks will be added here -->
+        </hr:UIScrollView>
+
+      </VisualElement>
+
+    </VisualElement>
+  </hr:UILuaView>
+
+</UXML>

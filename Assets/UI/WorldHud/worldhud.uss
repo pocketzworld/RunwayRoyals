@@ -1,0 +1,127 @@
+:root {
+  --font-default: url("project://database/Assets/UI/Fonts/MuseoSansRounded1000 SDF.asset");
+  --cash-pic: url("project://database/Assets/UI/Icons/World/Secondary_Cash_Icon.png");
+  --bag-pic: url("project://database/Assets/UI/Icons/World/bag_Icon.png");
+  --rank-pic: url("project://database/Assets/UI/Icons/World/ranking_Icon.png");
+
+  --color-primary: #9374FD;
+  --color-secondary: #1E232C;
+  --color-white: #E8ECF4;
+}
+
+.worldhud {
+  background-color: red;
+
+  width: 100%;
+}
+
+.world-overlay {
+  display: flex;
+  position: absolute;
+
+  top: 50px;
+
+  -unity-text-align: middle-center;
+  -unity-font-definition: var(--font-black);
+  color: #E8ECF4;
+
+  width: 100%;
+}
+
+.world-button {
+  display: flex;
+  position: absolute;
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 58px;
+  height: 58px;
+
+  font-size: 14px;
+
+  transition-property: scale;
+  transition-duration: 0.2s;
+}
+
+.world-button:hover {
+  scale: 0.9;
+}
+
+.world-button.shop {
+  left: 11px;
+}
+
+.world-button.ranking {
+  right: 11px;
+}
+
+.world-button.inventory {
+  left: 11px;
+  top: 85px;
+}
+
+.button-icon {
+  align-items: center;
+  justify-content: flex-start;
+
+  --unity-image-tint-color: white;
+  scale: 0.8;
+}
+
+.button-circle {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  border-width: 4px;
+}
+
+.button-circle.shop {
+  background-color: #6647cf;
+  border-color: #9374FD;
+}
+
+.button-circle.ranking {
+  background-color: #008355;
+  border-color: #00B072;
+}
+
+.button-circle.inventory {
+  background-color: #0062a3;
+  border-color: #008BE8;
+}
+
+#_ShopIcon {
+  --unity-image: var(--cash-pic);
+}
+
+#_RankingIcon {
+  --unity-image: var(--rank-pic);
+}
+
+#_InventoryIcon {
+  --unity-image: var(--bag-pic);
+}
+
+.placeholder {
+  position: absolute;
+  top: 50px;
+  
+  background-color: var(--color-primary);
+  border-radius: 5px;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 57px;
+  height: 18px;
+}
+
+.placeholder.ranking {
+  background-color: #00B072;
+}
+
+.placeholder.inventory {
+  background-color: #008BE8;
+}

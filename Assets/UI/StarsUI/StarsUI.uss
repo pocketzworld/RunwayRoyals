@@ -1,0 +1,38 @@
+:root {
+  --font-inter-black: url("project://database/Assets/UI/Fonts/Inter-Black SDF.asset");
+  --font-inter-black-italic: url("project://database/Assets/UI/Fonts/Inter-BlackItalic SDF.asset");
+  --font-inter-bold: url("project://database/Assets/UI/Fonts/Inter-Bold SDF.asset");
+  --font-inter-bold-italic: url("project://database/Assets/UI/Fonts/Inter-BoldItalic SDF.asset");
+}
+
+.stars-u-i {
+    position: absolute;
+    font-size: 18px;
+    -unity-font-definition: var(--font-inter-bold);
+    color: white;
+
+    right: 0;
+
+    padding: 5px;
+
+    background-color: #141221;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#stars_container {
+    flex-direction: row;
+}
+
+#stars_icon {
+    width: 32px;
+    height: 32px;
+    background-image: url("project://database/Assets/UI/Icons/StarEmoji.png");
+    margin-left: 5px;
+}
+
+#stars_amount {
+    margin: 0;
+    padding: 0;
+    -unity-text-align: middle-center;
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xmlns:hr="Highrise.UI"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd"
+>
+
+  <hr:UILuaView class="inventory">
+    <VisualElement class="inventory__container" name="_InventoryContainer">
+      <hr:UIBlur class="overlay" />
+
+      <VisualElement class="inventory__header">
+        <Label class="inventory__header__title" text="Inventory" />
+      </VisualElement>
+
+      <VisualElement class="inventory__close" name="_closeButton">
+        <VisualElement class="button-content">
+          <Image name="_closeButtonImage" class="inventory__close__icon" />
+        </VisualElement>
+      </VisualElement>
+
+      <hr:UIScrollView name="_InventoryContent" class="inventory__content">
+        <!-- Inventory Content -->
+        <VisualElement class="inventory__item plus" name="_InventoryPlus">
+          <VisualElement class="inventory__item-icon">
+            <Image class="inventory__item-icon__image" />
+          </VisualElement>
+        </VisualElement>
+
+      </hr:UIScrollView>
+    </VisualElement>
+
+    <VisualElement class="inventory__item__info hidden" name="_itemInfo">
+      <VisualElement class="inventory__item__info-content" name="_ItemInfoContent">
+        <!-- Item Info Content -->
+      </VisualElement>
+
+      <VisualElement class="inventory__item__info__close" name="_closeInfoButton">
+        <VisualElement class="button-content">
+          <Image name="_closeButtonImage" class="inventory__item__info__close__icon" />
+        </VisualElement>
+      </VisualElement>
+
+    </VisualElement>
+  </hr:UILuaView>
+
+</UXML>

@@ -1,0 +1,327 @@
+:root {
+  --font-inter-black: url("project://database/Assets/UI/Fonts/Inter-Black SDF.asset");
+  --font-inter-black-italic: url("project://database/Assets/UI/Fonts/Inter-BlackItalic SDF.asset");
+  --font-inter-bold: url("project://database/Assets/UI/Fonts/Inter-Bold SDF.asset");
+  --font-inter-bold-italic: url("project://database/Assets/UI/Fonts/Inter-BoldItalic SDF.asset");
+  --font-inter-semi-bold: url("project://database/Assets/UI/Fonts/MuseoSansRounded1000 SDF.asset");
+
+  --color-primary: #9374FD;
+  --color-secondary: #211D35;
+  --color-white: #E8ECF4;
+
+  --plus-icon: url("project://database/Assets/UI/Icons/plus.png");
+}
+
+.inventory {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+
+  top: 0;
+  bottom: 0;
+
+  padding: 30px;
+}
+
+.inventory__container {
+  display: flex;
+  overflow: hidden;
+
+  padding: 2px;
+  min-height: 300px;
+  min-width: 300px;
+
+  max-height: 500px;
+  max-width: 1000px;
+
+  border-width: 2px;
+  border-radius: 8px;
+  border-color: rgba(0, 0, 0, .3);
+
+  border-bottom-color: var(--color-primary);
+}
+
+.inventory__header {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px;
+  -unity-text-align: middle-center;
+
+  border-bottom-color: rgba(0, 0, 0, .3);
+  border-bottom-width: 2px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  margin-bottom: 3px;
+}
+
+.inventory__header__title {
+  font-size: 30px;
+  color: #9374FD;
+
+  align-self: center;
+
+  text-shadow: -3px 5px 0px rgba(0, 0, 0, .4);
+  -unity-font-definition: var(--font-inter-black);
+}
+
+.inventory__close {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
+.inventory__content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  width: 100%;
+  min-width: 300px;
+  margin-top: 10px;
+
+  overflow: scroll;
+  align-self: center;
+
+  padding: 10px;
+}
+
+.scroll-view__content-viewport {
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.scroll-view__content-container {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  width: 100%;
+  height: auto;
+}
+
+.scroll-bar {
+  width: 5px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+.scroll-bar__thumb {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 2px;
+}
+
+.scroll-bar__thumb:active {
+  background-color: #9374FD;
+}
+
+.scroll-bar__thumb:hover {
+  background-color: #9374FD;
+}
+
+.inventory__item {
+  width: 65px;
+  height: 65px;
+
+  margin: 0 3px 5px 3px;
+
+  padding: 5px;
+
+  background-color: var(--color-secondary);
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: #161227;
+
+  transition-property: opacity, scale;
+  transition-duration: 0.2s;
+
+  -unity-font-definition: var(--font-inter-semi-bold);
+}
+
+.equiped {
+  border-color: #A481FF;
+  border-width: 3px;
+}
+
+.inventory__item:hover {
+  opacity: 0.8;
+  scale: 0.9;
+
+  background-color: var(--color-primary);
+}
+
+.inventory__item-amount {
+  position: absolute;
+
+  bottom: 0;
+  right: 0;
+
+  font-size: 16px;
+  color: var(--color-white);
+}
+
+.hidden {
+  display: none;
+}
+
+..inventory__item-icon,
+.inventory__item-icon-plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.inventory__item-icon UIImage {
+  width: 40px;
+  height: 40px;
+
+  align-self: center;
+}
+
+.inventory__item-icon-plus UIImage{
+  width: 30px;
+  height: 30px;
+
+  align-self: center;
+  opacity: 0.5;
+  --unity-image: var(--plus-icon);
+}
+
+.inventory__item__info {
+  position: absolute;
+
+  width: 350px;
+  height: 300px;
+
+  padding: 10px;
+  align-self: center;
+  justify-content: center;
+
+  align-items: center;
+  flex-direction: column;
+
+  background-color: var(--color-secondary);
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: rgba(23, 25, 35, 0.5);
+
+  overflow: hidden;
+}
+
+.inventory__item__info-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+
+  padding: 5px;
+  -unity-font-definition: var(--font-inter-semi-bold);
+}
+
+.inventory__item__info-name {
+  font-size: 27px;
+  text-shadow: 1px 5px 3px rgba(0, 0, 0, .3);
+  margin-bottom: 5px;
+
+  color: var(--color-white);
+}
+
+.inventory__item__info-icon {
+  width: 80px;
+  height: 80px;
+
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+
+  overflow: hidden;
+  padding: 3px;
+
+  background-color: var(--color-secondary);
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: rgba(23, 25, 35, 0.5);
+}
+
+.inventory__item__info-amount {
+  position: absolute;
+
+  top: 2px;
+  right: 0;
+
+  -unity-text-align: middle-right;
+  color: var(--color-white);
+
+  font-size: 20px;
+}
+
+.inventory__item__info-icon UIImage {
+  width: 60px;
+  height: 60px;
+}
+
+.inventory__item__info-description {
+  width: 100%;
+  height: 100%;
+
+  padding: 5px;
+  font-size: 14px;
+
+  overflow: scroll;
+  align-self: center;
+  -unity-text-align: middle-center;
+
+  flex-wrap: wrap;
+  white-space: normal;
+  flex-grow: 1;
+
+  color: #fff;
+  -unity-font-definition: var(--font-inter-semi-bold);
+}
+
+.inventory__item__info__description-label {
+  max-width: 100%;
+  white-space: normal;
+}
+
+.inventory__item__info__close {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
+
+.inventory__item__info__close Image {
+  --unity-image: var(--image-icon-close);
+
+  width: 37px;
+  height: 37px;
+}
+
+.inventory__close Image {
+  --unity-image: var(--image-icon-close);
+
+  width: 37px;
+  height: 37px;
+}

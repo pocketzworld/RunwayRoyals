@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1754193419, guid: 30a4c7dce0b6891478396efa6bd2a6d0, type: 3}
+  m_Name: Hair
+  m_EditorClassIdentifier: 
+  _items:
+  - _descriptorId: hair_front-f_17
+    _paletteId: -1
+  - _descriptorId: hair_front-f_24
+    _paletteId: -1
+  - _descriptorId: hair_front-f_27
+    _paletteId: -1
+  - _descriptorId: hair_front-m_23
+    _paletteId: -1
+  - _descriptorId: hair_front-n_animecollection2018coolguyhair
+    _paletteId: -1
+  - _descriptorId: hair_front-n_malenew01
+    _paletteId: -1
+  - _descriptorId: hair_front-n_malenew02
+    _paletteId: -1
+  - _descriptorId: hair_front-n_malenew03
+    _paletteId: -1
+  - _descriptorId: hair_front-n_malenew04
+    _paletteId: -1
+  - _descriptorId: hair_front-n_basic2018straightnobangs
+    _paletteId: -1
+  - _descriptorId: hair_front-n_basic2018straightpulledback
+    _paletteId: -1
+  - _descriptorId: hair_front-n_basic2018straightsidebangs
+    _paletteId: -1
+  - _descriptorId: hair_front-n_basic2018wavyfullbangs
+    _paletteId: -1
+  - _descriptorId: hair_front-n_basic2018curlynobangs
+    _paletteId: -1
+  - _descriptorId: hair_front-n_basic2018curlypulledback
+    _paletteId: -1
+  - _descriptorId: hair_front-n_basic2018curlysidebangs
+    _paletteId: -1
+  - _descriptorId: hair_front-n_basic2018longstraighthalfpony
+    _paletteId: -1
+  - _descriptorId: hair_front-n_basic2018mediumstraightsidebangs
+    _paletteId: -1
+  - _descriptorId: hair_front-n_malenew05
+    _paletteId: -1
+  - _descriptorId: hair_front-n_malenew06
+    _paletteId: -1
+  - _descriptorId: hair_front-n_malenew07
+    _paletteId: -1
+  - _descriptorId: hair_front-n_malenew08
+    _paletteId: -1
+  - _descriptorId: hair_front-n_malenew09
+    _paletteId: -1
+  - _descriptorId: hair_front-n_malenew10
+    _paletteId: -1
+  - _descriptorId: hair_front-n_basic2018curlyfullbangs
+    _paletteId: -1
+  - _descriptorId: hair_front-n_basic2018mediumwavybettiebangs
+    _paletteId: -1
+  - _descriptorId: hair_front-n_basic2018straightbluntbangs
+    _paletteId: -1

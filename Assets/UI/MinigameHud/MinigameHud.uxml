@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xmlns:hr="Highrise.UI"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+>
+
+  <hr:UILuaView class="minigame-hud" picking-mode="Ignore">
+    <VisualElement class="my-container" picking-mode="Ignore">
+      <VisualElement class="state">
+        <hr:UIBlur class="overlay" />
+        <hr:UILabel name="titleLabel" class="state-title" picking-mode="Ignore"/>
+      </VisualElement>
+
+      <VisualElement class="middle-container">
+        <VisualElement class="image-container HideUserThumbnail" name="_ImageContainer">
+          <!-- This is a contestant icon --> 
+          <hr:UIUserThumbnail class="contestant-icon" name="contestantIcon" picking-mode="Ignore" online-indicator="false"/>
+        </VisualElement>
+        <hr:UILabel name="nameLabel" class="status-title" picking-mode="Ignore"/>
+      </VisualElement>
+
+      <VisualElement class="countdown-container">
+        <Image class="timer-icon HideTimerIcon" name="_TimerIcon"/>
+        <hr:UILabel name="timerLabel" class="count-title" picking-mode="Ignore"/>
+      </VisualElement>
+      
+    </VisualElement>
+  </hr:UILuaView>
+
+</UXML>

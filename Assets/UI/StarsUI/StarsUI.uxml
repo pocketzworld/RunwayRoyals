@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="UnityEngine.UIElements"
+    xmlns:hr="Highrise.UI"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd"
+>
+
+  <hr:UILuaView class="stars-u-i">
+    <VisualElement name="stars_container">
+      <Label name="stars_amount" text="00" />
+      <VisualElement name="stars_icon"/>
+    </VisualElement>
+  </hr:UILuaView>
+
+</UXML>
